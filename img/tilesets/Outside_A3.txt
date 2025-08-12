@@ -1,0 +1,32 @@
+﻿Roof A (Red Tile)|roof rootA（red tiles）
+Roof B (Orange Tile)|roof rootB（orange tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof D (Green Tile)|roof rootD（green tile）
+Roof E (Blue Tile)|roof rootE（blue tiles）
+Roof F (Dressed Tile)|roof rootF（Cosmetic tiles）
+Roof G (Khaki Tile)|roof rootG（カーキwatt）
+Roof H (Sheet Metal)|roof rootH（iron plate）
+Outer Wall A (Plaster)|outer wallA（white wall）
+Outer Wall B (Rock Wall)|outer wallB（stone wall）
+Outer Wall C (Rock Wall)|outer wallC（stone wall）
+Outer Wall D (Rock Wall)|outer wallD（stone wall）
+Outer Wall E (Brick)|outer wallE（レンガ）
+Outer Wall F (Decorative Tile)|outer wallF（Makeupタイル）
+Outer Wall G (Dirt)|outer wallG（earth wall）
+Outer Wall H (Wood)|outer wallH（wooden）
+Roof I (Wood)|roof rootI（wooden）
+Roof J (Wood)|roof rootJ（wooden）
+Roof K (Log)|roof rootK（Maruta）
+Roof L (Thatch)|roof rootL（Gao）
+Roof M (Stone)|roof rootM（stone）
+Roof N (Tent)|roof rootN（テント）
+Snow Roof A|Snowのroof rootA
+Snow Roof B|Snowのroof rootB
+Outer Wall I (Wood)|outer wallI（wooden）
+Outer Wall J (Wood)|outer wallJ（wooden）
+Outer Wall K (Log)|outer wallK（Maruta）
+Outer Wall L (Wood)|outer wallL（wooden）
+Outer Wall M (Rock Wall)|outer wallM（stone wall）
+Outer Wall N (Tent)|outer wallN（テント）
+Snow Outer Wall (Wood)|Snowのouter wall（wooden）
+Snow Outer Wall (Brick)|Snowのouter wall（レンガ）

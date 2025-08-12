@@ -1,0 +1,48 @@
+﻿Wall A (Stone)|wallA（stone）
+Wall B (Brick)|wallB（レンガ）
+Wall C (Stone)|wallC（stone）
+Wall D (Stone)|wallD（stone）
+Wall E (Stone)|wallE（stone）
+Wall F (Marble)|wallF（marble）
+Wall G (Hedge)|wallG（bornけwall）
+Wall G (Frozen)|wallH（Freeze）
+Wall A (Stone)|wallA（stone）
+Wall B (Brick)|wallB（レンガ）
+Wall C (Stone)|wallC（stone）
+Wall D (Stone)|wallD（stone）
+Wall E (Stone)|wallE（stone）
+Wall F (Marble)|wallF（marble）
+Wall G (Hedge)|wallG（bornけwall）
+Wall G (Frozen)|wallH（Freeze）
+Building A (Urban)|buildingA（Metropolis wind）
+Building B (Dirt Wall)|buildingB（earth wall）
+Building C (Desert)|buildingC（desert wind）
+Building D (Temple, Snow)|buildingD（temple・Snow）
+Building E (Castle)|buildingE（city）
+Building F (Castle, Snow)|buildingF（city・Snow）
+Building G (Fort)|buildingG（village）
+Building H (Fort, Snow)|buildingH（village・Snow）
+Building A (Urban)|buildingA（Metropolis wind）
+Building B (Dirt Wall)|buildingB（earth wall）
+Building C (Desert)|buildingC（desert wind）
+Building D (Temple, Snow)|buildingD（temple・Snow）
+Building E (Castle)|buildingE（city）
+Building F (Castle, Snow)|buildingF（city・Snow）
+Building G (Fort)|buildingG（village）
+Building H (Fort, Snow)|buildingH（village・Snow）
+Ledge A (Meadow)|step differenceA（grassland）
+Ledge B (Dirt)|step differenceB（earth）
+Ledge C (Desert)|step differenceC（sandy ground）
+Ledge D (Snow)|step differenceD（Snow）
+Ledge E (Paved)|step differenceE（paving）
+Forest A|forestA
+Forest B (Snow)|forestB（Snow）
+Demon Castle|Demon King's Castle
+Cliff A (Meadow)|cliffA（grassland）
+Cliff B (Dirt)|cliffB（earth）
+Cliff C (Desert)|cliffC（sandy ground）
+Cliff D (Snow)|cliffD（Snow）
+Wall (Paved)|wall（paving）
+Forest A|forestA
+Forest B (Snow)|forestB（Snow）
+Demon Castle|Demon King's Castle

@@ -1,0 +1,256 @@
+﻿Transparent|transparent
+Signboard A|KanbanA
+Signboard B|KanbanB
+Signboard C|KanbanC
+Iron Bridge (H)|Railway bridge（horizontal）
+Iron Bridge (V)|Railway bridge（Qi）
+Reservoir A|water tankA
+Reservoir B|water tankB
+Hut|cabin
+Shanty|digっstandてcabin
+Signboard D|KanbanD
+Stele A|steleA
+Stele B|steleB
+Windmill|windmill
+Parabolic Antenna|パラボラアンテナ
+Heliport|ヘリポート
+Entrance A (Open)|EntranceA（open）
+Entrance A (Closed)|EntranceA（close）
+Entrance B (Open)|EntranceB（open）
+Entrance B (Closed)|EntranceB（close）
+Entrance C (Open)|EntranceC（open）
+Entrance C (Closed)|EntranceC（close）
+Entrance D (Closed)|EntranceD（close）
+Entrance E (Closed)|EntranceE（close）
+Road|the way
+Road|the way
+Road Closed|pass onlyめ
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Coniferous Tree A|coniferA
+Road|the way
+Road|the way
+Road|the way
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Coniferous Tree B|coniferB
+Road|the way
+Road|the way
+Road|the way
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Broadleaf Tree|leaf tree
+Road|the way
+Road|the way
+Road|the way
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Broken Buildings|Leiれたビルstreet
+Town A|townA
+Town B|townB
+Slum A|スラムstreetA
+Slum B|スラムstreetB
+Mansion A|MansionA
+Mansion A|MansionA
+Gate A|ゲートA
+Gate B|ゲートB
+Shopping Area A|shopping streetA
+Shopping Area B|shopping streetB
+Buildings A|ビルstreetA
+Buildings B|ビルstreetB
+Mansion B|MansionB
+Mansion B|MansionB
+Gate C|ゲートC
+Gate D|ゲートD
+Residential Street|residential street
+Residential Street|residential street
+Slum|スラムstreet
+Slum|スラムstreet
+School|School
+School|School
+Hospital|hospital
+Hospital|hospital
+Residential Street|residential street
+Residential Street|residential street
+Slum|スラムstreet
+Slum|スラムstreet
+School|School
+School|School
+Hospital|hospital
+Hospital|hospital
+City A|streetA
+City A|streetA
+City B|streetB
+City B|streetB
+Residence A|YashikiA
+Residence A|YashikiA
+Residence B|YashikiB
+Residence B|YashikiB
+City A|streetA
+City A|streetA
+City B|streetB
+City B|streetB
+Residence A|YashikiA
+Residence A|YashikiA
+Residence B|YashikiB
+Residence B|YashikiB
+Bridge A (V)|bridgeA（Qi）
+Bridge A (H)|bridgeA（horizontal）
+Broken Bridge A (V)|LeiれたbridgeA（Qi）
+Broken Bridge A (H)|LeiれたbridgeA（horizontal）
+Bridge B (V)|bridgeB（Qi）
+Bridge B (H)|bridgeB（horizontal）
+Broken Bridge B (V)|Leiれたbridge（Qi）
+Broken Bridge B (H)|Leiれたbridge（horizontal）
+Building A|ビルA
+Building B|ビルB
+Building C|ビルC
+Building D|ビルD
+Apartment|マンション
+Apartment Complex|マンションgroup
+Collapsed Building A|CollapseしたビルA
+Collapsed Building B|CollapseしたビルB
+Building A|ビルA
+Building B|ビルB
+Building C|ビルC
+Building D|ビルD
+Apartment|マンション
+Apartment Complex|マンションgroup
+Collapsed Building A|CollapseしたビルA
+Collapsed Building B|CollapseしたビルB
+Large Town A|bigきなtownA
+Large Town A|bigきなtownA
+Entertainment District A|Xuejie StreetA
+Entertainment District A|Xuejie StreetA
+Police Station|police station
+Police Station|police station
+Crater A|クレーターA
+Crater A|クレーターA
+Large Town A|bigきなtownA
+Large Town A|bigきなtownA
+Entertainment District A|Xuejie StreetA
+Entertainment District A|Xuejie StreetA
+Police Station|police station
+Police Station|police station
+Crater A|クレーターA
+Crater A|クレーターA
+Large Town B|bigきなtownB
+Large Town B|bigきなtownB
+Entertainment District B|Xuejie StreetB
+Entertainment District B|Xuejie StreetB
+Museum|museum
+Museum|museum
+Crater B|クレーターB
+Crater B|クレーターB
+Large Town B|bigきなtownB
+Large Town B|bigきなtownB
+Entertainment District B|Xuejie StreetB
+Entertainment District B|Xuejie StreetB
+Museum|museum
+Museum|museum
+Crater B|クレーターB
+Crater B|クレーターB
+Warehouse A|warehouseA
+Warehouse A|warehouseA
+Factory|workshop
+Factory|workshop
+Warehouse B|warehouseB
+Gantry Crane|ガントリークレーン
+Park|park
+Crater C|クレーターC
+Warehouse A|warehouseA
+Warehouse A|warehouseA
+Factory|workshop
+Factory|workshop
+Warehouse B|warehouseB
+Gantry Crane|ガントリークレーン
+Statue A|pictureA
+Statue B|pictureB
+Fuel Tank|fuelタンク
+Fuel Tank|fuelタンク
+Construction Site|fortification site
+Construction Site|fortification site
+Watchtower|Watchtower
+Steel Tower|Iron Tower
+Tower A|タワーA
+Tower B|タワーB
+Fuel Tank|fuelタンク
+Fuel Tank|fuelタンク
+Construction Site|fortification site
+Construction Site|fortification site
+Watchtower|Watchtower
+Steel Tower|Iron Tower
+Tower A|タワーA
+Tower B|タワーB
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall (Gate)|outer wall（door）
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall (Gate)|outer wall（door）
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Theme Park|テーマパーク
+Theme Park|テーマパーク
+Port|harbor
+Port|harbor
+Military Base|military base
+Military Base|military base
+Dome|ドーム
+Dome|ドーム
+Theme Park|テーマパーク
+Theme Park|テーマパーク
+Port|harbor
+Port|harbor
+Military Base|military base
+Military Base|military base
+Dome|ドーム
+Dome|ドーム
+Lighthouse|lampstand
+Broken Lighthouse|Leiれたlampstand
+Temple|temple
+Church|church
+Cemetery A|cemeteryA
+Cemetery B|cemeteryB
+Prison|penal bureau
+Prison|penal bureau

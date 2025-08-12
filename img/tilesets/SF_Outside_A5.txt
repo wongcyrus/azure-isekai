@@ -1,0 +1,128 @@
+﻿Darkness|secretly
+Grid floor|lattice bed
+Metal Bridge (V, Left)|metal bridge（Qi・Left）
+Metal Bridge (V, Center)|metal bridge（Qi・central）
+Metal Bridge (V, Right)|metal bridge（Qi・right）
+Asphalt Bridge (H, Top)|アスファルトbridge（horizontal・superior）
+Metal Bridge (H, Center)|metal bridge（horizontal・central）
+Metal Bridge (H, Top)|metal bridge（horizontal・superior）
+Transparent|transparent
+Grid floor|lattice bed
+Asphalt Bridge (V, Left)|アスファルトbridge（Qi・Left）
+Asphalt Bridge (V, Center)|アスファルトbridge（Qi・central）
+Asphalt Bridge (V, Right)|アスファルトbridge（Qi・right）
+Asphalt Bridge (H, Bottom)|アスファルトbridge（horizontal・Down）
+Asphalt Bridge (H, Center)|アスファルトbridge（horizontal・central）
+Metal Bridge (H, Bottom)|metal bridge（horizontal・Down）
+Asphalt Floor|アスファルトbed
+Metal Floor A (Factory)|metal bedA（workshop）
+Concrete Floor|コンクリートbed
+Concrete Floor (Ruins)|コンクリートbed（Abandoned ruins）
+Hole|hole
+Grid floor (Ruins)|lattice bed（Abandoned ruins）
+Asphalt Floor (Ruins)|アスファルトbed（Abandoned ruins）
+Metal Floor A (Factory, Ruins)|metal bedA（workshop・Abandoned ruins）
+Asphalt Floor|アスファルトbed
+Metal Floor A (Factory)|metal bedA（workshop）
+Concrete Floor|コンクリートbed
+Interior Floor A (In Body)|Built-in bedA（in vivo）
+Stairs A (Asphalt, Left)|stageA（アスファルト・Left）
+Stairs A (Asphalt, Center)|stageA（アスファルト・central）
+Stairs A (Asphalt, Right)|stageA（アスファルト・right）
+Stairs A (Asphalt)|stageA（アスファルト）
+Meadow|grassland
+Desert|sandy ground
+Wood Floor A|WoodのbedA
+Wood Floor A (Ruins)|WoodのbedA（Abandoned ruins）
+Asphalt Floor (Dirty)|アスファルトbed（dirtyれ）
+Asphalt Floor (Dirty, Ruins)|アスファルトbed（dirtyれ・Abandoned ruins）
+Metal Floor A (Factory, Rust)|metal bedA（workshop・サビ）
+Interior Floor B (Artery)|Built-in bedB（artery）
+Bumpy Tile A|BrailleブロックA
+Bumpy Tile B|BrailleブロックB
+Bumpy Tile C|BrailleブロックC
+Bumpy Tile C (Ruins)|BrailleブロックC（Abandoned ruins）
+Stairs B (Metal, Left)|stageB（Metal・Left）
+Stairs B (Metal, Center)|stageB（Metal・central）
+Stairs B (Metal, Right)|stageB（Metal・right）
+Stairs B (Metal)|stageB（Metal）
+Interior Floor C (Green Resin)|Built-in bedC（green resin）
+Interior Floor D (Tile)|Built-in bedD（タイル）
+Interior Floor D (Tile, Ruins)|Built-in bedD（タイル・Abandoned ruins）
+Interior Floor E (Decoration)|Built-in bedE（decoration）
+Bush|Maoみ
+Waste Land|wasteland
+Wood Floor B|WoodのbedB
+Wood Floor B (Ruins)|WoodのbedB（Abandoned ruins）
+Stairs C (Meadow, Left)|stageC（grassland・Left）
+Stairs C (Meadow, Center)|stageC（grassland・central）
+Stairs C (Meadow, Right)|stageC（grassland・right）
+Stairs C (Meadow)|stageC（grassland）
+Stairs D (Wood, Left)|stageD（wooden・Left）
+Stairs D (Wood, Center)|stageD（wooden・central）
+Stairs D (Wood, Right)|stageD（wooden・right）
+Stairs D (Wood)|stageD（wooden）
+Cobblestones A|stone panA
+Cobblestones B|stone panB
+Cobblestones C|stone panC
+Cobblestones D|stone panD
+Interior Floor F (Checkered)|Built-in bedF（Ichimatsu）
+Interior Floor F (Checkered, Ruins)|Built-in bedF（Ichimatsu・Abandoned ruins）
+Metal Floor B|metal bedB
+Metal Floor B (Rust, Ruins)|metal bedB（サビ・Abandoned ruins）
+Stairs E (Carpet, Left)|stageE（じゅうたん・Left）
+Stairs E (Carpet, Center)|stageE（じゅうたん・central）
+Stairs E (Carpet, Right)|stageE（じゅうたん・right）
+Stairs E (Carpet)|stageE（じゅうたん）
+Stairs F (Desert, Left)|stageF（sandy ground・Left）
+Stairs F (Desert, Center)|stageF（sandy ground・central）
+Stairs F (Desert, Right)|stageF（sandy ground・right）
+Stairs F (Desert)|stageF（sandy ground）
+Mark Floor A|マークbedA
+Mark Floor B|マークbedB
+Mark Floor C|マークbedC
+Mark Floor D|マークbedD
+Mark Floor E|マークbedE
+Mark Floor E (Ruins)|マークbedE（Abandoned ruins）
+Mark Floor F (Off)|マークbedF（remove）
+Mark Floor F|マークbedF
+Neon Floor|ネオンbed
+Interior Floor G (Tile Carpet)|Built-in bedG（タイルカーペット）
+Interior Floor G (Tile Carpet, Ruins)|Built-in bedG（タイルカーペット・Abandoned ruins）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Marble Floor|marble bed
+Interior Floor H (Linoleum)|Built-in bedH（リノリウム）
+Interior Floor H (Linoleum, Ruins)|Built-in bedH（リノリウム・Abandoned ruins）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Stairs G (Tile Carpet, Left)|stageG（タイルカーペット・Left）
+Stairs G (Tile Carpet, Center)|stageG（タイルカーペット・central）
+Stairs G (Tile Carpet, Right)|stageG（タイルカーペット・right）
+Stairs G (Tile Carpet)|stageG（タイルカーペット）
+Cobblestones A (Ruins)|stone panA（Abandoned ruins）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Stairs H (Linoleum, Left)|stageH（リノリウム・Left）
+Stairs H (Linoleum, Center)|stageH（リノリウム・central）
+Stairs H (Linoleum, Right)|stageH（リノリウム・right）
+Stairs H (Linoleum)|stageH（リノリウム）
+Cobblestones C (Ruins)|stone panC（Abandoned ruins）
+Cliff (Dirt)|cliff（earth）
+Cliff (Dirt)|cliff（earth）
+Cliff (Dirt)|cliff（earth）
+Marble Floor (Ruins)|marble bed（Abandoned ruins）
+Wood Floor C|WoodのbedC
+Wood Floor C (Ruins)|WoodのbedC（Abandoned ruins）
+Metal Floor C (Machine)|metal bedC（machinery）
+Metal Floor C (Machine, Ruins)|metal bedC（machinery・Abandoned ruins）
+Cliff (Dirt)|cliff（earth）
+Cliff (Dirt)|cliff（earth）
+Cliff (Dirt)|cliff（earth）

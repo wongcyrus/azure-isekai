@@ -1,0 +1,256 @@
+﻿Stone Pillar A|stoneのcolumnA
+Stone Pillar B|stoneのcolumnB
+Stone Pillar C|stoneのcolumnC
+Stone Pillar C (Moss)|stoneのcolumnC（moss）
+Stone Pillar C (Snow)|stoneのcolumnC（Snow）
+Wood Pillar|Woodのcolumn
+Stone Pillar D|stoneのcolumnD
+Demon Castle Pillar|Demon King's Castleのcolumn
+Stone Pillar A|stoneのcolumnA
+Stone Pillar B|stoneのcolumnB
+Stone Pillar C|stoneのcolumnC
+Stone Pillar C (Moss)|stoneのcolumnC（moss）
+Stone Pillar C (Snow)|stoneのcolumnC（Snow）
+Wood Pillar|Woodのcolumn
+Stone Pillar D|stoneのcolumnD
+Demon Castle Pillar|Demon King's Castleのcolumn
+Broken Stone Pillar|foldれたstoneのcolumnA
+Broken Stone Pillar|foldれたstoneのcolumnB
+Broken Stone Pillar|foldれたstoneのcolumnC
+Broken Stone Pillar C (Moss)|foldれたstoneのcolumnC（moss）
+Broken Stone Pillar C (Snow)|foldれたstoneのcolumnC（Snow）
+Broken Wood Pillar|foldれたWoodのcolumn
+Broken Stone Pillar F|foldれたstoneのcolumnD
+Broken Demon Castle Pillar|foldれたDemon King's Castleのcolumn
+Bones A|skeletonA
+Bones B|skeletonB
+Rubble|rubbleA
+Rubble B (Moss)|rubbleB（moss）
+Rubble C (Snow)|rubbleC（Snow）
+Broken Wood Pillar|foldれたWoodのcolumn
+Rubble D|rubbleD
+Rubble E (Demon Castle)|rubbleE（Demon King's Castle）
+Tapestry A|タペストリーA
+Tapestry A (Ruins)|タペストリーA（Abandoned ruins）
+Tapestry B|タペストリーB
+Tapestry B (Ruins)|タペストリーB（Abandoned ruins）
+Tapestry C|タペストリーC
+Tapestry C (Ruins)|タペストリーC（Abandoned ruins）
+Tapestry D|タペストリーD
+Tapestry D (Ruins)|タペストリーD（Abandoned ruins）
+Tapestry A|タペストリーA
+Tapestry A (Ruins)|タペストリーA（Abandoned ruins）
+Tapestry B|タペストリーB
+Tapestry B (Ruins)|タペストリーB（Abandoned ruins）
+Tapestry C|タペストリーC
+Tapestry C (Ruins)|タペストリーC（Abandoned ruins）
+Tapestry D|タペストリーD
+Tapestry D (Ruins)|タペストリーD（Abandoned ruins）
+Monument A|steleA
+Monument B|steleB
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Monument A|steleA
+Monument C|steleC
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Monument A (Snow)|steleA（Snow）
+Monument B (Snow)|steleB（Snow）
+Large Monument (Snow)|bigきなstele（Snow）
+Large Monument (Snow)|bigきなstele（Snow）
+Large Monument (Snow)|bigきなstele（Snow）
+Large Monument (Ruins)|bigきなstele（Abandoned ruins）
+Large Monument (Ruins)|bigきなstele（Abandoned ruins）
+Large Monument (Ruins)|bigきなstele（Abandoned ruins）
+Monument A (Snow)|steleA（Snow）
+Monument B (Snow)|steleB（Snow）
+Large Monument (Snow)|bigきなstele（Snow）
+Large Monument (Snow)|bigきなstele（Snow）
+Large Monument (Snow)|bigきなstele（Snow）
+Large Monument (Ruins)|bigきなstele（Abandoned ruins）
+Large Monument (Ruins)|bigきなstele（Abandoned ruins）
+Large Monument (Ruins)|bigきなstele（Abandoned ruins）
+Statue A|stone statueA
+Angel Statue A|angel statueA
+Angel Statue B|angel statueB
+Demon Statue|Golem
+Dais|pedestal
+Dragon Statue|dragon statue
+Dragon Statue|dragon statue
+Statue B|stone statueB
+Statue A|stone statueA
+Angel Statue A|angel statueA
+Angel Statue B|angel statueB
+Demon Statue|Golem
+Dais|pedestal
+Dragon Statue|dragon statue
+Dragon Statue|dragon statue
+Statue B|stone statueB
+Statue A (Snow)|stone statueA（Snow）
+Angel Statue A (Snow)|angel statueA（Snow）
+Angel Statue B (Snow)|angel statueB（Snow）
+Demon Statue (Snow)|Golem（Snow）
+Dais (Snow)|pedestal（Snow）
+Dragon Statue (Snow)|dragon statue（Snow）
+Dragon Statue (Snow)|dragon statue（Snow）
+Ice Statue|ice statue
+Statue A (Snow)|stone statueA（Snow）
+Angel Statue A (Snow)|angel statueA（Snow）
+Angel Statue B (Snow)|angel statueB（Snow）
+Demon Statue (Snow)|Golem（Snow）
+Dais (Snow)|pedestal（Snow）
+Dragon Statue (Snow)|dragon statue（Snow）
+Dragon Statue (Snow)|dragon statue（Snow）
+Ice Statue|ice statue
+Window A (Demon Castle)|瓓A（Demon King's Castle）
+Window B (Demon Castle)|瓓B（Demon King's Castle）
+Window C (Demon Castle)|瓓C（Demon King's Castle）
+Gravel Mound (Dirt)|soil sandA（earth）
+Large Gravel Mound (Dirt)|bigきなsoil sand（earth）
+Large Gravel Mound (Dirt)|bigきなsoil sand（earth）
+Cave Entrance|cave entrance
+Mine Entrance|tunnel entrance
+Window A (Demon Castle)|瓓A（Demon King's Castle）
+Window B (Demon Castle)|瓓B（Demon King's Castle）
+Window D (Demon Castle)|瓓D（Demon King's Castle）
+Gravel Mound B (Dirt, Snow)|soil sandB（earth・Snow）
+Large Gravel Mound (Dirt)|bigきなsoil sand（earth）
+Large Gravel Mound (Dirt)|bigきなsoil sand（earth）
+Cave Entrance|cave entrance
+Mine Entrance|tunnel entrance
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof A (Red Tile)|roof rootA（red tiles）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof B (Snow)|roof rootB（Snow）
+Roof B (Snow)|roof rootB（Snow）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof C (Indigo Tile)|roof rootC（blue tile）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle)|MentaA（city）
+Roof Detail A (Red Tile)|roof decorationりA（red tiles）
+Roof Detail B (Snow)|roof decorationりB（Snow）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Round Tower B (Fort)|MentaB（village）
+Round Tower B (Fort)|MentaB（village）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle)|MentaA（city）
+Roof Detail C (Indigo Tile)|roof decorationりC（blue tile）
+Roof Detail D (Wood)|roof decorationりD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Roof D (Wood)|roof rootD（wooden）
+Round Tower B (Fort)|MentaB（village）
+Round Tower B (Fort)|MentaB（village）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle's Spire)|MentaA（cityのminaret）
+Round Tower A (Castle's Spire)|MentaA（cityのminaret）
+Round Tower B (Fort)|MentaB（village）
+Round Tower B (Fort)|MentaB（village）
+Round Tower B (Fort)|MentaB（village）
+Round Tower B (Fort)|MentaB（village）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle's Spire)|MentaA（cityのminaret）
+Round Tower A (Castle's Spire)|MentaA（cityのminaret）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower B (Fort)|MentaB（village）
+Round Tower B (Fort)|MentaB（village）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle's Spire)|MentaA（cityのminaret）
+Round Tower A (Castle's Spire)|MentaA（cityのminaret）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower B (Fort)|MentaB（village）
+Round Tower B (Fort)|MentaB（village）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle)|MentaA（city）
+Round Tower A (Castle)|MentaA（city）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle's Spire, Snow)|MentaA（cityのminaret・Snow）
+Round Tower A (Castle's Spire, Snow)|MentaA（cityのminaret・Snow）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle's Spire, Snow)|MentaA（cityのminaret・Snow）
+Round Tower A (Castle's Spire, Snow)|MentaA（cityのminaret・Snow）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle's Spire, Snow)|MentaA（cityのminaret・Snow）
+Round Tower A (Castle's Spire, Snow)|MentaA（cityのminaret・Snow）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower C (Demon Castle)|MentaC（Demon King's Castle）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower A (Castle, Snow)|MentaA（city・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）
+Round Tower B (Fort, Snow)|MentaB（village・Snow）

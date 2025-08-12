@@ -1,0 +1,32 @@
+﻿Ground A (Dirt Cave)|bedA（earth cave）
+Ground B (Grass Maze)|bedB（grass maze）
+Dark Ground A (Dirt Cave)|thickいbedA（earth cave）
+Dark Ground B (Grass Maze)|thickいbedB（grass maze）
+Hole A (Dirt Cave)|holeA（earth cave）
+Hole B (Grass Maze)|holeB（grass maze）
+Hole I (Stone Floor)|holeI（stoneのbed）
+Ground Cracks|bedのひびcutれ
+Ground C (Rock Cave)|bedC（rock cave）
+Ground D (Crystal)|bedD（crystal）
+Dark Ground C (Rock Cave)|thickいbedC（rock cave）
+Dark Ground D (Crystal)|thickいbedD（crystal）
+Hole C (Rock Cave)|holeC（rock cave）
+Hole D (Crystal)|holeD（crystal）
+Hole J|holeJ
+Soil on Ground|bedのdirtyれ
+Ground E (Lava Cave)|bedE（lava cave）
+Ground F (In Body)|bedF（in vivo）
+Dark Ground E (Lava Cave)|thickいbedE（lava cave）
+Rug A|じゅうたんA
+Hole E (Lava Cave)|holeE（lava cave）
+Hole F (In Body)|holeF（in vivo）
+Fencepost|gate
+Moss on Ground|bedのmoss
+Ground G (Ice Cave)|bedG（ice cave）
+Ground H (Demonic World)|bedH（Demonic world）
+Dark Ground G (Ice Cave)|thickいbedG（ice cave）
+Rug B|じゅうたんB
+Hole G (Ice Cave)|holeG（ice cave）
+Hole H (Demonic World)|holeH（Demonic world）
+Raised Stone|stone section
+Poison Swamp|poisonのSwamp

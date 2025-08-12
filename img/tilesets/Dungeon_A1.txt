@@ -1,0 +1,16 @@
+﻿Water A|water fieldA
+Deep Water|deepいwater field
+Swamp Grass|waterweed
+Lotus Pads (Flowers)|lotusのleaves（flower）
+Lava|lava
+Waterfall A (Lava Cave)|takiA（lava cave）
+Water B (Grass Maze)|water fieldB（grass maze）
+Waterfall B (Grass Maze)|takiB（grass maze）
+Water C (Dirt Cave)|water fieldC（earth cave）
+Waterfall C (Dirt Cave)|takiC（earth cave）
+Water D (Rock Cave)|water fieldD（rock cave）
+Waterfall D (Rock Cave)|takiD（rock cave）
+Water E (Crystal)|water fieldE（crystal）
+Waterfall E (Crystal)|takiE（crystal）
+Canal|waterway
+Waterfall (Stone Wall)|takiF（stone wall）

@@ -1,0 +1,128 @@
+﻿Darkness|secretly
+Wire Mesh|Golden Net
+Large Bridge (V, Left)|bigきなbridge（Qi・Left）
+Large Bridge (V, Center)|bigきなbridge（Qi・central）
+Large Bridge (V, Right)|bigきなbridge（Qi・right）
+Large Bridge (H, Top)|bigきなbridge（horizontal・superior）
+Large Bridge (H, Center)|bigきなbridge（horizontal・central）
+Large Bridge (Snow, H, Top)|bigきなbridge（Snow・horizontal・superior）
+Transparent|transparent
+Wire Mesh|Golden Net
+Large Bridge (Snow, V, Left)|bigきなbridge（Snow・Qi・Left）
+Large Bridge (Snow, V, Center)|bigきなbridge（Snow・Qi・central）
+Large Bridge (Snow, V, Right)|bigきなbridge（Snow・Qi・right）
+Large Bridge (H, Bottom)|bigきなbridge（horizontal・Down）
+Large Bridge (Snow, H, Center)|bigきなbridge（Snow・horizontal・central）
+Large Bridge (Snow, H, Bottom)|bigきなbridge（Snow・horizontal・Down）
+Meadow A|grasslandA
+Dirt A|earthA
+Desert A|sandy groundA
+Snow A|SnowA
+Meadow|grasslandB
+Dirt B|earthB
+Desert B|sandy groundB
+Snow B|SnowB
+Stairs (Meadow, Left)|stage（grassland・Left）
+Stairs (Meadow, Center)|stage（grassland・central）
+Stairs (Meadow, Right)|stage（grassland・right）
+Stairs (Meadow)|stage
+Stairs (Dirt, Left)|stage（earth・Left）
+Stairs (Dirt, Center)|stage（earth・central）
+Stairs (Dirt, Right)|stage（earth・right）
+Stairs (Dirt)|stage（earth）
+Cobblestones A|stone panA
+Cobblestones B|stone panB
+Cobblestones C|stone panC
+Cobblestones D|stone panD
+Cobblestones A (Ruins)|stone panA（Abandoned ruins）
+Cobblestones B (Ruins)|stone panB（Abandoned ruins）
+Cobblestones C (Ruins)|stone panC（Abandoned ruins）
+Cobblestones D (Ruins)|stone panD（Abandoned ruins）
+Stairs (Desert, Left)|stage（sandy ground・Left）
+Stairs (Desert, Center)|stage（sandy ground・central）
+Stairs (Desert, Right)|stage（sandy ground・right）
+Stairs (Desert)|stage（sandy ground）
+Stairs (Snow, Left)|stage（Snow・Left）
+Stairs (Snow, Center)|stage（Snow・central）
+Stairs (Snow, Right)|stage（Snow・right）
+Stairs (Snow)|stage（Snow）
+Cobblestones E|stone panE
+Cobblestones F|stone panF
+Cobblestones G|stone panG
+Ice Floor A|iceのbedA
+Cobblestones E (Ruins)|stone panE（Abandoned ruins）
+Cobblestones F (Ruins)|stone panF（Abandoned ruins）
+Cobblestones G (Ruins)|stone panG（Abandoned ruins）
+Ice Floor B|iceのbedB
+Stairs (Paved, Left)|stage（paving・Left）
+Stairs (Paved, Center)|stage（paving・central）
+Stairs (Paved, Right)|stage（paving・right）
+Stairs (Paved)|stage（paving）
+Stairs (Ruins, Left)|stage（Abandoned ruins・Left）
+Stairs (Ruins, Center)|stage（Abandoned ruins・central）
+Stairs (Ruins, Right)|stage（Abandoned ruins・right）
+Stairs (Ruins)|stage（Abandoned ruins）
+Ledge (Port, Left)|step difference（port・Left）
+Ledge (Port, Center)|step difference（port・central）
+Ledge (Port, Right)|step difference（port・right）
+Ledge (Port)|step difference（port）
+Cobblestones H|stone panH
+Cobblestones I|stone panI
+Cloud A|CloudA
+Cloud B|CloudB
+Farm Field A (Top)|HataA（superior）
+Farm Field A (Center)|HataA（central）
+Farm Field B (Snow, Top)|HataB（Snow・superior）
+Farm Field B (Snow, Center)|HataB（Snow・central）
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile B|bigきなレリーフbedB
+Large Relief Floor Tile B|bigきなレリーフbedB
+Farm Field A (Bottom)|HataA（Down）
+Farm Field A|HataA
+Farm Field B (Snow, Bottom)|HataB（Snow・Down）
+Farm Field B (Snow)|HataB（Snow）
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile B|bigきなレリーフbedB
+Large Relief Floor Tile B|bigきなレリーフbedB
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Garden A|flower bedA
+Garden B (Snow)|flower bedB（Snow）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Meadow)|step difference（grassland）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Cliff|cliff
+Cliff|cliff
+Cliff|cliff
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Cliff|cliff
+Cliff|cliff
+Cliff|cliff
+Cliff (Meadow)|cliff（grassland）
+Cliff (Meadow)|cliff（grassland）
+Cliff (Meadow)|cliff（grassland）
+Ledge (Dirt)|step difference（earth）
+Ledge (Dirt)|step difference（earth）
+Cliff (Dirt)|cliff（earth）
+Cliff (Dirt)|cliff（earth）
+Cliff (Dirt)|cliff（earth）

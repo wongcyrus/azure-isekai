@@ -1,0 +1,32 @@
+﻿Grassland A|grasslandA
+Grassland A (Dark)|grasslandA（thick）
+Grassland B|grasslandB
+Grassland B (Dark)|grasslandB（thick）
+Forest|forest
+Forest (Conifer)|forest（conifer）
+Hill (Grass)|mound（Grass）
+Mountain (Dirt)|Mountain（earth）
+Wasteland A|shortageれlandA
+Wasteland B|shortageれlandB
+Dirt Field A|soil muscleA
+Dirt Field B|soil muscleB
+Forest (Dead Trees)|forest（dryれWood）
+Road (Dirt)|road（earth）
+Hill (Dirt)|mound（earth）
+Mountain (Rock)|Mountain（rock）
+Desert A|desertA
+Desert B|desertB
+Rocky Land A|rocky groundA
+Rocky Land B (Lava)|rocky groundB（lava）
+Forest (Palm Trees)|forest（ヤシのWood）
+Road (Paved)|road（paving）
+Hill (Sandstone)|mound（sandstone）
+Mountain (Sandstone)|Mountain（sandstone）
+Snowfield|snowfield
+Hill (Snow)|mound（Snow）
+Clouds|Cloud
+Large Clouds|bigきなCloud
+Forest (Snow)|forest（Snow）
+Pit|hole
+Hill (Rock)|mound（rock）
+Mountain (Snow)|Mountain（Snow）

@@ -1,0 +1,256 @@
+﻿Transparent|transparent
+Beanstalk A|beanのWoodA
+Stairs A (Up)|stageA（superiorり）
+Stairs B (Up)|stageB（superiorり）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Vines A|ツタA
+Beanstalk B (Snow)|beanのWoodB（Snow）
+Beanstalk C (Dead)|beanのWoodC（dryれ）
+Stairs A (Down)|stageA（Downり）
+Stairs B (Down)|stageB（Downり）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Vines A|ツタA
+Crumbling Wall|collapseれたwall
+Dug-Up Ground|digられたbed
+Stairs C (Up)|stageC（superiorり）
+Stairs D (Up)|stageD（superiorり）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Vines B (Down)|ツタB（Downり）
+Crumbling Wall|collapseれたwall
+Dug-Up Ground|digられたbed
+Stairs C (Down)|stageC（Downり）
+Stairs D (Down)|stageD（Downり）
+Hole A (Metal Ladder)|holeA（Ironばしご）
+Hole B (Rope Ladder)|holeB（縄ばしご）
+Hole C (Rope)|holeC（ロープ）
+Hole D|holeD
+Log Bridge (V)|Marutaのbridge（Qi）
+Log Bridge (H)|Marutaのbridge（horizontal）
+Wood Bridge (V)|Woodのbridge（Qi）
+Wood Bridge (H)|Woodのbridge（horizontal）
+Stone Bridge (V)|stoneのbridge（Qi）
+Stone Bridge (H)|stoneのbridge（horizontal）
+Wood Bridge (V)|Woodのbridge（Qi）
+Wood Bridge (H)|Woodのbridge（horizontal）
+Bridge Spar (Wood, Center A)|bridgeげた（Wood・centralA）
+Bridge Spar (Wood, Left)|bridgeげた（Wood・Left）
+Bridge Spar (Wood, Center B)|bridgeげた（Wood・centralB）
+Bridge Spar (Wood, Right)|bridgeげた（Wood・right）
+Bridge Spar (Stone, Center A)|bridgeげた（stone・centralA）
+Bridge Spar (Stone, Left)|bridgeげた（stone・Left）
+Bridge Spar (Stone, Center B)||bridgeげた（stone・centralB）
+Bridge Spar (Stone, Right)|bridgeげた（stone・right）
+Gravel A (Dirt Cave)|SariA（earth cave）
+Gravel B (Rock Cave)|SariB（rock cave）
+Gravel C (Lava Cave)|SariC（lava cave）
+Ice Pieces |iceのmissing piece
+Small Sprouts A (Grass Maze)|SmallさなbudA（grass maze）
+Small Crystals|Smallさなcrystal
+Detritus (In Body)|bed decoration（in vivo）
+Small Sprouts B (Demonic World)|SmallさなbudB（Demonic world）
+Boulder A (Dirt Cave)|rockA（earth cave）
+Boulder B (Rock Cave)|rockB（rockcave）
+Boulder C (Lava Cave)|rockC（溶rockcave）
+Lump of Ice|ice cubes
+Boulder D (Grass Maze)|rockD（grass maze）
+Crystal|crystal
+Spherical Lump|bulbous protrusion
+Boulder E (Demonic World)|rockE（Demonic world）
+Tall Rock A (Dirt Cave)|bigきなrockA（earth cave）
+Tall Rock B (Rock Cave)|bigきなrockB（rockcave）
+Tall Rock C (Lava Cave)|bigきなrockC（溶rockcave）
+Tall Lump of Ice|bigきなice cubes
+Tall Rock D  (Grass Maze)|bigきなrockD（grass maze）
+Large Crystal|bigきなcrystal
+Large Growth|large protrusions
+Tall Rock E (Demonic World)|bigきなrockE（Demonic world）
+Tall Rock A (Dirt Cave)|bigきなrockA（earth cave）
+Tall Rock B (Rock Cave)|bigきなrockB（rockcave）
+Tall Rock C (Lava Cave)|bigきなrockC（溶rockcave）
+Tall Lump of Ice|bigきなice cubes
+Tall Rock D  (Grass Maze)|bigきなrockD（grass maze）
+Large Crystal|bigきなcrystal
+Large Growth|large protrusions
+Tall Rock E (Demonic World)|bigきなrockE（Demonic world）
+Stone Pillar A|stoneのcolumnA
+Stone Pillar B|stoneのcolumnB
+Stone Pillar C|stoneのcolumnC
+Stone Pillar C (Moss)|stoneのcolumnC（moss）
+Stone Pillar C (Ice)|stoneのcolumnC（ice）
+Wood Pillar|Woodのcolumn
+Stone Pillar D|stoneのcolumnD
+Orb Pillar|オーブのcolumn
+Stone Pillar A|stoneのcolumnA
+Stone Pillar B|stoneのcolumnB
+Stone Pillar C|stoneのcolumnC
+Stone Pillar C (Moss)|stoneのcolumnC（moss）
+Stone Pillar C (Ice)|stoneのcolumnC（ice）
+Wood Pillar|Woodのcolumn
+Stone Pillar D|stoneのcolumnD
+Orb Pillar|オーブのcolumn
+Broken Stone Pillar A|foldれたstoneのcolumnA
+Broken Stone Pillar B|foldれたstoneのcolumnB
+Broken Stone Pillar C|foldれたstoneのcolumnC
+Broken Stone Pillar C (Moss)|foldれたstoneのcolumnC（moss）
+Broken Stone Pillar C (Ice)|foldれたstoneのcolumnC（ice）
+Broken Wood Pillar A|foldれたWoodのcolumnA
+Broken Stone Pillar D|foldれたstoneのcolumnD
+Broken Orb Pillar|foldれたオーブのcolumn
+Rubble|rubbleA
+Rubble (Moss)|rubbleB（moss）
+Rubble (Ice)|rubbleC（ice）
+Broken Wood Pillar B|foldれたWoodのcolumnB
+Rubble (Dirt)|rubbleD（earth）
+Scrap Wood|End material
+Barricade A (H)|バリケードA（horizontal）
+Barricade B (V)|バリケードB（Qi）
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing (Abandoned Mine)|wallのReinforcement material（Abandoned pit）
+Wall Bracing (Abandoned Mine)|wallのReinforcement material（Abandoned pit）
+Wall Bracing (Abandoned Mine)|wallのReinforcement material（Abandoned pit）
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing|wallのReinforcement material
+Wall Bracing (Abandoned Mine)|wallのReinforcement material（Abandoned pit）
+Wall Bracing (Abandoned Mine)|wallのReinforcement material（Abandoned pit）
+Wall Bracing (Abandoned Mine)|wallのReinforcement material（Abandoned pit）
+Exit A|outsideへのexitA
+Entrance A|EntranceA
+Exit B|outsideへのexitB
+Entrance B|EntranceB
+Exit C|outsideへのexitC
+Entrance C|EntranceC
+Window A|瓓A
+Window B|瓓B
+Exit D|outsideへのexitD
+Entrance D|EntranceD
+Exit E|outsideへのexitE
+Entrance E|EntranceE
+Light From Exit A (Top)|exitからのLightA（superior）
+Light From Exit B (Bottom)|exitからのLightB（Down）
+Window A|瓓A
+Window B|瓓B
+Spider Web|spiderのSi
+Stone Tablet|stone tablet
+Stone Tablet (Ruins)|stone tablet（Abandoned ruins）
+Entrance A|EntranceA
+Entrance A (Extend)|EntranceA（extension）
+Entrance A (Top Half A)|EntranceA（First halfA）
+Entrance B|EntranceB
+Entrance A (Top Half B)|EntranceA（First halfB）
+Wall Vines A|wallのツタA
+Wall Vines B|wallのツタB
+Wall Vines C|wallのツタC
+Wall Fern|wallのシダ
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Fissures D|crackedD
+Wall Vines A|wallのツタA
+Wall Vines B|wallのツタB
+Wall Vines C|wallのツタC
+Wall Moss|wallのmoss
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Fissures D|crackedD
+Monument A|steleA
+Monument B|steleB
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Monument A|steleA
+Monument C|steleC
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Large Monument (Lit)|bigきなstele（Light）
+Statue A|stone statueA
+Angel Statue A|angel statueA
+Angel Statue B|angel statueB
+Dais|pedestal
+Statue B|stone statueB
+Demon Statue|Golem
+Dragon Statue|dragon statue
+Dragon Statue|dragon statue
+Statue A|stone statueA
+Angel Statue A|angel statueA
+Angel Statue B|angel statueB
+Dais|pedestal
+Statue B|stone statueB
+Demon Statue|Golem
+Dragon Statue|dragon statue
+Dragon Statue|dragon statue
+Large Gravel Mound A (Dirt)|bigきなsoil sandA（earth）
+Large Gravel Mound A (Dirt)|bigきなsoil sandA（earth）
+Large Gravel Mound B (Stone)|bigきなsoil sandB（stone）
+Large Gravel Mound B (Stone)|bigきなsoil sandB（stone）
+Large Gold Mound|bigきなgoldのMountain
+Large Gold Mound|bigきなgoldのMountain
+Large Silver Mound|bigきなsilverのMountain
+Large Silver Mound|bigきなsilverのMountain
+Large Gravel Mound A (Dirt)|bigきなsoil sandA（earth）
+Large Gravel Mound A (Dirt)|bigきなsoil sandA（earth）
+Large Gravel Mound B (Stone)|bigきなsoil sandB（stone）
+Large Gravel Mound B (Stone)|bigきなsoil sandB（stone）
+Large Gold Mound|bigきなgoldのMountain
+Large Gold Mound|bigきなgoldのMountain
+Large Silver Mound|bigきなsilverのMountain
+Large Silver Mound|bigきなsilverのMountain
+Gravel Mound (Dirt)|soil sandA（earth）
+Gravel Mound (Stone)|soil sandB（stone）
+Gold Bricks A|goldのextendべGreatA
+Gold Bricks B|goldのextendべGreatB
+Crate A (Dirt)|wooden boxA（earth）
+Crate B (Stone)|wooden boxB（stone）
+Crate C (Ruins)|wooden boxC（Abandoned ruins）
+Pot A (Ruins)|potA（Abandoned ruins）
+Gold Mound|goldのMountain
+Silver Mound|silverのMountain
+Silver Bricks A|silverのextendべGreatA
+Silver Bricks B|silverのextendべGreatB
+Crate D (Gold Dust)|wooden boxD（gold）
+Crate E (Silver Dust)|wooden boxE（silver）
+Pot A|potA
+Pot B|potB
+Shovel|スコップ
+Pickax|つるはし
+Rope|ロープ
+Mound of Gold Coins|gold goodsのMountain
+Crate F|wooden boxF
+Crate G|wooden boxG
+Barrel A|bottleA
+Barrel B (Ruins)|bottleB（Abandoned ruins）
+Large Bones|bigきなskeleton
+Large Bones|bigきなskeleton
+Bones A|skeletonA
+Table (Ruins)|テーブル（Abandoned ruins）
+Jail Bars|iron grid
+Jail Bars|iron grid
+Jail Bars|iron grid
+Jail Bars|iron grid
+Large Bones|bigきなskeleton
+Large Bones|bigきなskeleton
+Bones B|skeletonB
+Stool (Ruins)|Chair（Abandoned ruins）
+Jail Bars|iron grid
+Jail Bars|iron grid
+Jail Bars|iron grid
+Jail Bars|iron grid

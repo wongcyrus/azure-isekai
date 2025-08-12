@@ -1,0 +1,256 @@
+﻿Transparent|transparent
+Stairs A (Up)|stageA（superiorり）
+Stairs B (Up)|stageB（superiorり）
+Stairs C (Up)|stageC（superiorり）
+Stairs D (Up)|stageD（superiorり）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Hole|hole
+Stairs A (Down)|stageA（Downり）
+Stairs B (Down)|stageB（Downり）
+Stairs C (Down)|stageC（Downり）
+Stairs D (Down)|stageD（Downり）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Middle Window A|Medium sizeA
+Middle Window B|Medium sizeB
+Middle Window C|Medium sizeC
+Middle Window D (Ruins)|Medium sizeD（Abandoned ruins）
+Window (Demon Castle)|瓓（Demon King's Castle）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Middle Window A|Medium sizeA
+Middle Window B|Medium sizeB
+Middle Window C|Medium sizeC
+Middle Window D (Ruins)|Medium sizeD（Abandoned ruins）
+Window (Demon Castle)|瓓（Demon King's Castle）
+Hole A (Metal Ladder)|holeA（Ironばしご）
+Hole B (Rope Ladder)|holeB（縄ばしご）
+Hole C (Rope)|holeC（ロープ）
+Large Window A|Large scaleA
+Large Window B|Large scaleB
+Large Window C|Large scaleC
+Stained Glass Window|ステンドグラス
+Large Window D|Large scaleD
+Window A|瓓A
+Window B|瓓B
+Window C|瓓C
+Large Window A|Large scaleA
+Large Window B|Large scaleB
+Large Window C|Large scaleC
+Stained Glass Window|ステンドグラス
+Large Window D|Large scaleD
+Window A|瓓A
+Window B|瓓B
+Window C|瓓C
+Chest A|チェストA
+Cabinet|キャビネット
+Closet|クローゼット
+Chest of Drawers|タンス
+Dish Cabinet|utensil shed
+Wine Rack|ワインセラー
+Bottle Shelf A|ボトルshedA
+Bottle Shelf B|ボトルshedB
+Chest B|チェストB
+Chest C|チェストC
+Closet|クローゼット
+Chest of Drawers|タンス
+Dish Cabinet|utensil shed
+Wine Rack|ワインセラー
+Bottle Shelf A|ボトルshedA
+Bottle Shelf B|ボトルshedB
+Bread Shelf|パンshed
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf B|Qiu goods shedB
+Medicine Shelf|Drinking shed
+Bookshelf A|Ben ShengA
+Bookshelf B|Ben ShengB
+Bookshelf B|Ben ShengB
+Bread Shelf|パンshed
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf B|Qiu goods shedB
+Medicine Shelf|Drinking shed
+Bookshelf A|Ben ShengA
+Bookshelf B|Ben ShengB
+Bookshelf B|Ben ShengB
+Bed|ベッド
+Large Bed|ダブルベッド
+Large Bed|ダブルベッド
+Cheap Bed A|Coarse powderなベッドA
+Cheap Bed B|Coarse powderなベッドB
+Straw Bed|むしろのbed
+Bed (Ruins)|ベッド（Abandoned ruins）
+Tipped Shelf|fallれたshed
+Bed|ベッド
+Large Bed|ダブルベッド
+Large Bed|ダブルベッド
+Cheap Bed A|Coarse powderなベッドA
+Cheap Bed B|Coarse powderなベッドB
+Straw Bed|むしろのbed
+Bed (Ruins)|ベッド（Abandoned ruins）
+Tipped Shelf|fallれたshed
+Table A|テーブルA
+Table B|テーブルB
+Table C|テーブルC
+Fortuneteller's Table A|occupyいtowerA
+Mini Table A|ミニテーブルA
+Piano|ピアノ
+Piano|ピアノ
+Piano|ピアノ
+Stool A|ChairA
+Stool B|ChairB
+Stool C|ChairC
+Fortuneteller's Table B (Crystal)|occupyいtowerB（crystal）
+Mini Table B (Flower)|ミニテーブルB（vase）
+Piano|ピアノ
+Piano|ピアノ
+Piano|ピアノ
+Oven|かまど
+Sink|flowし
+Kitchen Counter A|Cooking tableA
+Kitchen Counter B|Cooking tableB
+Dresser|ドレッサー
+Pipe Organ|パイプオルガン
+Pipe Organ|パイプオルガン
+Pipe Organ|パイプオルガン
+Simple Shelf A|simple shedA
+Simple Shelf B (Jars)|simple shedB（bottle）
+Simple Shelf C (Books)|simple shedC（Book）
+Simple Shelf D (Sacks)|simple shedD（bag）
+Simple Shelf E (Bottles)|simple shedE（ボトル）
+Pipe Organ|パイプオルガン
+Pipe Organ|パイプオルガン
+Pipe Organ|パイプオルガン
+Large Fireplace|bigきなstove
+Large Fireplace|bigきなstove
+Large Fireplace|bigきなstove
+Fireplace A (Stone)|stoveA（stone）
+Fireplace B (Brick)|stoveB（レンガ）
+Fireplace C (Iron)|stoveC（Iron）
+Tapestry A|タペストリーA
+Tapestry A (Ruins)|タペストリーA（Abandoned ruins）
+Large Fireplace|bigきなstove
+Large Fireplace|bigきなstove
+Large Fireplace|bigきなstove
+Fireplace A (Stone)|stoveA（stone）
+Fireplace B (Brick)|stoveB（レンガ）
+Fireplace C (Iron)|stoveC（Iron）
+Tapestry A|タペストリーA
+Tapestry A (Ruins)|タペストリーA（Abandoned ruins）
+Curtains A|カーテンA
+Curtains B|カーテンB
+Curtains C|カーテンC
+Curtains D|カーテンD
+Curtains A (Ruins)|カーテンA（Abandoned ruins）
+Curtains B (Ruins)|カーテンB（Abandoned ruins）
+Curtains C (Ruins)|カーテンC（Abandoned ruins）
+Curtains D (Ruins)|カーテンD（Abandoned ruins）
+Curtains A|カーテンA
+Curtains B|カーテンB
+Curtains C|カーテンC
+Curtains D|カーテンD
+Curtains A (Ruins)|カーテンA（Abandoned ruins）
+Curtains B (Ruins)|カーテンB（Abandoned ruins）
+Curtains C (Ruins)|カーテンC（Abandoned ruins）
+Curtains D (Ruins)|カーテンD（Abandoned ruins）
+Clock|timepiece
+Mirror|mirror
+Posted Notice|pasteりPaper
+Posted Notice (Ruins)|pasteりPaper（Abandoned ruins）
+World Map|world map
+World Map|world map
+Painting|Painting
+Painting|Painting
+Clock|timepiece
+Mirror|mirror
+Stone Tablet|stone tablet
+Stone Tablet (Ruins)|stone tablet（Abandoned ruins）
+Portrait A|portraitA
+Portrait B|portraitB
+Painting A|PaintingA
+Painting B|PaintingB
+Chair A (Wood)|backもたれChairA（wooden）
+Chair B (Stone)|backもたれChairB（stone）
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Chair A (Wood)|backもたれChairA（wooden）
+Chair B (Stone)|backもたれChairB（stone）
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Shield|shield
+Swords A|剣A
+Swords B|剣B
+Entrance A|EntranceA
+Entrance A (Extend)|EntranceA（extension）
+Entrance A (Top Half A)|EntranceA（First halfA）S
+Entrance B|EntranceB
+Entrance A (Top Half B)|EntranceA（First halfB）
+Pot A|potA
+Pot B|potB
+Pot C (Ruins)|potC（Abandoned ruins）
+Table A (Ruins)|テーブルA（Abandoned ruins）
+Stone Pillar A|stoneのcolumnA
+Stone Pillar B|stoneのcolumnB
+Fort Pillar|villageのcolumn
+Rubble|rubble
+Basin|bucket
+Barrel |bottle
+Barrel (Ruins)|bottle（Abandoned ruins）
+Stool (Ruins)|Chair（Abandoned ruins）
+Stone Pillar A|stoneのcolumnA
+Stone Pillar B|stoneのcolumnB
+Fort Pillar|villageのcolumn
+Rubble|rubble
+Basin|bucket
+Tub A|たらいA
+Tub B|たらいB
+Crate A (Ruins)|wooden boxA（Abandoned ruins）
+Broken Stone Pillar A|foldれたstoneのcolumnA
+Broken Stone Pillar B|foldれたstoneのcolumnB
+Broken Fort Pillar|foldれたvillageのcolumn
+Scrap Wood|End material
+Crate B|wooden boxB
+Crate C|wooden boxC
+Stacked Crates|Accumulateまれたwooden box
+Stacked Crates|Accumulateまれたwooden box
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Fissures D|crackedD
+Crate D|wooden boxD
+Crate E|wooden boxE
+Stacked Crates|Accumulateまれたwooden box
+Stacked Crates|Accumulateまれたwooden box
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Fissures D|crackedD
+Crate F|wooden boxF
+Crate G|wooden boxG
+Sacks C|sackC
+Large Crate|bigきなwooden box
+Jail Bar|iron grid
+Jail Bar|iron grid
+Jail Bar|iron grid
+Jail Bar|iron grid
+Sack A|sackA
+Sack B|sackB
+Sacks C|sackC
+Large Crate|bigきなwooden box
+Jail Bar|iron grid
+Jail Bar|iron grid
+Jail Bar|iron grid
+Jail Bar|iron grid

@@ -1,0 +1,256 @@
+﻿Transparent|transparent
+Shop Sign (Sword)|Kanban（剣）
+Shop Sign (Sword & Shield)|Kanban（剣とshield）
+Shop Sign (Armor)|Kanban（armor）
+Shop Sign (Sack)|Kanban（bag）
+Shop Sign (Teapot)|Kanban（ポット）
+Shop Sign (Inn)|Kanban（accommodation）
+Shop Sign (Pub)|Kanban（wine shop）
+Shop Sign (Eatery)|Kanban（canteen）
+Shop Sign (Hexagram)|Kanban（magic circle）
+Shop Sign (Staves)|Kanban（stick）
+Shop Sign (Coin)|Kanban（コイン）
+Shop Sign (Necklace)|Kanban（ネックレス）
+Shop Sign (Hammer)|Kanban（ハンマー）
+Shop Sign (Crest)|Kanban（Heraldry）
+Shop Sign (Blank)|Kanban（landless）
+Log Bridge (V)|Marutaのbridge（Qi）
+Log Bridge (H)|Marutaのbridge（horizontal）
+Wood Bridge (V)|Woodのbridge（Qi）
+Wood Bridge (H)|Woodのbridge（horizontal）
+Stone Bridge (V)|stoneのbridge（Qi）
+Stone Bridge (H)|stoneのbridge（horizontal）
+Wood Bridge (V)|Woodのbridge（Qi）
+Wood Bridge (H)|Woodのbridge（horizontal）
+Bridge Spar (Wood, Center A)|bridgeげた（Wood・centralA）
+Bridge Spar (Wood, Left)|bridgeげた（Wood・Left）
+Bridge Spar (Wood, Center B)|bridgeげた（Wood・centralB）
+Bridge Spar (Wood, Right)|bridgeげた（Wood・right）
+Bridge Spar (Stone, Center A)|bridgeげた（stone・centralA）
+Bridge Spar (Stone, Left)|bridgeげた（stone・Left）
+Bridge Spar (Stone, Center B)||bridgeげた（stone・centralB）
+Bridge Spar (Stone, Right)|bridgeげた（stone・right）
+Window A|瓓A
+Window B|瓓B
+Window C|瓓C
+Window D|瓓D
+Middle Window A|Medium sizeA
+Middle Window B|Medium sizeB
+Middle Window C|Medium sizeC
+Middle Window D|Medium sizeD
+Window E|瓓E
+Window F|瓓F
+Window G|瓓G
+Stained Glass Window A|ステンドグラスA
+Middle Window A|Medium sizeA
+Middle Window E|Medium sizeE
+Middle Window C|Medium sizeC
+Middle Window D|Medium sizeD
+Large Window A|Large scaleA
+Large Window B|Large scaleB
+Large Window C|Large scaleC
+Stained Glass Window B|ステンドグラスB
+Large Window D|Large scaleD
+Middle Window F|Medium sizeF
+Middle Window G|Medium sizeG
+Middle Window H|Medium sizeH
+Large Window A|Large scaleA
+Large Window E|Large scaleE
+Large Window C|Large scaleC
+Stained Glass Window B|ステンドグラスB
+Large Window D|Large scaleD
+Middle Window F|Medium sizeF
+Middle Window G|Medium sizeG
+Middle Window H|Medium sizeH
+Chimney A|fumigationA
+Mooring Bollard A|ビットA
+Mooring Bollard B (Rope)|ビットB（ロープ）
+Entrance A|EntranceA
+Entrance A (Extend)|EntranceA（extension）
+Entrance A (Top Half A)|EntranceA（First halfA）S
+Entrance B|EntranceB
+Entrance A (Top Half B)|EntranceA（First halfB）
+Chimney B|fumigationB
+Sign A|standてZhaA
+Sign B|standてZhaB
+Well|Ido
+Stepping Stones|treadみstone
+Barrel|bottle
+Grave A|tombA
+Grave B|tombB
+Pot|pot
+Basin A|bucketA
+Basin B|bucketB
+Rock Fire Pit A|stoneのかまどA
+Rock Fire Pit B|stoneのかまどB
+Barricade (H)|バリケード（horizontal）
+Barricade (V)|バリケード（Qi）
+Beanstalk|beanのWood
+Grass A|GrassA
+Grass B|GrassB
+Grass C|GrassC
+Grass D|GrassD
+Stump|cutりstrain
+Tree|Wood
+Tree|Wood
+Boulder A|rockA
+Flowers A|flowerA
+Flowers B|flowerB
+Flowers C|flowerC
+Flowers D|flowerD
+Fallen Log|fallen wood
+Tree|Wood
+Bush|plantえ込み
+Boulder B|rockB
+Scarecrow|かかし
+Hole|hole
+Firewood|salary
+Rocks|Xiaoshi
+Crops A|cropsA
+Crops B|cropsB
+Crops C|cropsC
+Crops D|cropsD
+Large Tree|big wood
+Large Tree|big wood
+Large Tree|big wood
+Large Tree|big wood
+Large Crate|bigきなwooden box
+Crate A|wooden boxA
+Crate B|wooden boxB
+Crate C|wooden boxC
+Large Tree|big wood
+Large Tree|big wood
+Large Tree|big wood
+Large Tree|big wood
+Large Crate|bigきなwooden box
+Crate D|wooden boxD
+Crate E|wooden boxE
+Crate F|wooden boxF
+Conifer Tree (Snow)|conifer（Snow）
+Conifer Tree (Snow)|conifer（Snow）
+Conifer Tree (Snow)|conifer（Snow）
+Conifer Tree (Snow)|conifer（Snow）
+Scarecrow (Snow)|かかし（Snow）
+Pot (Snow)|pot（Snow）
+Bucket (Snow)|bucket（Snow）
+Crate (Snow)|wooden box（Snow）
+Large Conifer Tree (Snow)|large conifer（Snow）
+Large Conifer Tree (Snow)|large conifer（Snow）
+Large Conifer Tree (Snow)|large conifer（Snow）
+Large Conifer Tree (Snow)|large conifer（Snow）
+Mooring Bollard (Snow)|ビット（Snow）
+Barricade (H, Snow)|バリケード（horizontal・Snow）
+Barricade (H, Snow)|バリケード（Qi・Snow）
+Beanstalk (Snow)|beanのWood（Snow）
+Chimney (Snow)|fumigation（Snow）
+Sign A (Snow)|standてZhaA（Snow）
+Sign B (Snow)|standてZhaB（Snow）
+Well (Snow)|Ido（Snow）
+Stepping Stones (Snow)|treadみstone（Snow）
+Barrel (Snow)|bottle（Snow）
+Grave A (Snow)|tombA（Snow）
+Grave B (Snow)|tombB（Snow）
+Grass A (Snow)|GrassA（Snow）
+Grass B (Snow)|GrassB（Snow）
+Grass C (Snow)|GrassC（Snow）
+Grass D (Snow)|GrassD（Snow）
+Stump (Snow)|cutりstrain（Snow）
+Conifer Tree (Snow)|conifer（Snow）
+Conifer Tree (Snow)|conifer（Snow）
+Boulder A (Snow)|rockA（Snow）
+Snowman|Snowだるま
+Hole (Snow)|hole（Snow）
+Firewood (Snow)|salary（Snow）
+Rocks (Snow)|Xiaoshi（Snow）
+Fallen Log (Snow)|fallen wood（Snow）
+Conifer Tree (Snow)|conifer（Snow）
+Bush (Snow)|plantえ込み（Snow）
+Boulder B (Snow)|rockB（Snow）
+Dead Tree|dryれWood
+Dead Tree|dryれWood
+Mushrooms A|キノコA
+Mushrooms B|キノコB
+Palm Tree|ヤシのWood
+Palm Tree|ヤシのWood
+Cactus|サボテン
+Dead Grass A|dryれGrassA
+Dead Tree|dryれWood
+Dead Tree (Shrub)|dryれWood（低Wood）
+Rafflesia|ラフレシア
+Stump (Moss)|cutりstrain（moss）
+Palm Tree|ヤシのWood
+Bush (Flowers)|plantえ込み（flower）
+Fern|シダ
+Dead Grass B|dryれGrassB
+Hay|DryしGrass
+Hay (Snow)|DryしGrass（Snow）
+Floral Patch|Hanabata
+Susuki Grass|ススキ
+Fallen Leaves|fallちleaves
+Lotus Pads A|lotusのleavesA
+Lotus Pads B (Flowers)|lotusのleavesB（flower）
+Lotus Pads C|lotusのleavesC
+Wall Vines A|wallのツタA
+Wall Vines B|wallのツタB
+Wall Vines C|wallのツタC
+Wall Fern|wallのシダ
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Fissures D|crackedD
+Wall Vines A|wallのツタA
+Wall Vines B|wallのツタB
+Wall Vines C|wallのツタC
+Wall Moss|wallのmoss
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Fissures D|crackedD
+Tent A|テントA
+Tent A|テントA
+Tent A|テントA
+Streetlight A|street lampA
+Stairs A (Up)|stageA（superiorり）
+Stairs B (Up)|stageB（superiorり）
+Stairs C (Up)|stageC（superiorり）
+Stairs D (Up)|stageD（superiorり）
+Tent A|テントA
+Tent A|テントA
+Tent A|テントA
+Streetlight A|street lampA
+Stairs A (Down)|stageA（Downり）
+Stairs B (Down)|stageB（Downり）
+Stairs C (Down)|stageC（Downり）
+Stairs D (Down)|stageD（Downり）
+Tent A|テントA
+Tent A (Entrance)|テントA（Entrance）
+Tent A|テントA
+Streetlight A|street lampA
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Vines A|ツタ
+Tent B (Snow)|テントB（Snow）
+Tent B (Snow)|テントB（Snow）
+Tent B (Snow)|テントB（Snow）
+Streetlight B (Snow)|street lampB（Snow）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Vines A|ツタA
+Tent B (Snow)|テントB（Snow）
+Tent B (Snow)|テントB（Snow）
+Tent B (Snow)|テントB（Snow）
+Streetlight B (Snow)|street lampB（Snow）
+Metal Ladder|Ironばしご
+Rope Ladder|縄ばしご
+Rope|ロープ
+Vines B (Down)|ツタB（Downり）
+Tent B (Snow)|テントB（Snow）
+Tent B (Entrance, Snow)|テント（Entrance・Snow）
+Tent B (Snow)|テントB（Snow）
+Streetlight B (Snow)|street lampB（Snow）
+Hole A (Metal Ladder)|holeA（Ironばしご）
+Hole B (Rope Ladder)|holeB（縄ばしご）
+Hole C (Rope)|holeC（ロープ）
+Hole D|holeD

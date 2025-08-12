@@ -1,0 +1,256 @@
+﻿Black Board|blackboard
+Black Board|blackboard
+Black Board|blackboard
+White Board|ホワイトボード
+White Board|ホワイトボード
+White Board|ホワイトボード
+Cloth Partition A|clothのConfrontationA
+Cloth Partition B|clothのConfrontationB
+Black Board|blackboard
+Black Board|blackboard
+Black Board|blackboard
+White Board|ホワイトボード
+White Board|ホワイトボード
+White Board|ホワイトボード
+Cloth Partition A|clothのConfrontationA
+Cloth Partition B|clothのConfrontationB
+Stool|Waist hangingけイス
+Skeleton Model|skeleton model
+Biological Specimen|biological specimens
+Potted Plant|Uekibo
+Armchair|Elbow hangerけChair
+Insect Specimen|Insect specimens
+Restroom Mark (Men)|トイレマーク（male）
+Restroom Mark (Women)|トイレマーク（female）
+Wall Speaker|wall hangingけスピーカー
+Skeleton Model |skeleton model
+Biological Specimen|biological specimens
+Fire Extinguisher|fire extinguisher
+Armchair|Elbow hangerけChair
+Room Plate|Room name letter
+EXIT Sign|EXITプレート
+Vent|Tongjikou
+Painting A|PaintingA
+Painting B|PaintingB
+Vision Test Chart|vision test chart
+Plaster Bust|plaster bust
+Calendar|カレンダー
+Plant A|plantA
+Plant B|plantB
+Plant C|plantC
+Painting C|PaintingC
+Painting D|PaintingD
+Anatomical Chart|Human body
+Canvas|キャンバス
+Bulletin Board|information board
+Plant A|plantA
+Plant B|plantB
+Plant C|plantC
+Plumbing|Piping
+Plumbing|Piping
+Valve|バルブ
+Machine A|machineryA
+Machine B|machineryB
+Machine C|machineryC
+Air Vent A|ventsA
+Air Vent B|ventsB
+Plumbing|Piping
+Plumbing|Piping
+Plumbing|Piping
+Neon Tube|ネオンTube
+Neon Tube|ネオンTube
+Neon Tube|ネオンTube
+Fan|ファン
+Fluorescent Light|light lamp
+Plumbing|Piping
+Plumbing|Piping
+Plumbing|Piping
+Neon Tube|ネオンTube
+Neon Tube|ネオンTube
+Neon Tube|ネオンTube
+Outdoor Air Intake Unit|outdoor unit
+Shutter|シャッター
+Plumbing|Piping
+Plumbing|Piping
+Plumbing|Piping
+Control Panel A|operateパネルA
+Control Panel B|operateパネルB
+Control Panel C|operateパネルC
+Pipe (H)|パイプ（horizontal）
+Pipe (V)|パイプ（Qi）
+Line A|ラインA
+Line B|ラインB
+Road Closed|pass onlyめ
+Waste|abandoned things
+Scrap Metal|スクラップ
+Mysterious Liquid|mysteryのliquid
+Scattered Papers|scatteredらばったPaper
+Pipe (V)|パイプ（Qi）
+Belt Conveyor (V)|ベルトコンベアー（Qi）
+Belt Conveyor (H)|ベルトコンベアー（horizontal）
+Belt Conveyor (H)|ベルトコンベアー（horizontal）
+Belt Conveyor (H)|ベルトコンベアー（horizontal）
+Duct|ダクト
+Mechanical Device|Mechanical device
+Pile of Rubble|rubbleのMountain
+Pile of Rubble|rubbleのMountain
+Belt Conveyor (V)|ベルトコンベアー（Qi）
+Robot Arm|ロボットアーム
+Server Machine|サーバマシン
+Meters|Instruments
+Duct|ダクト
+Mechanical Device|Mechanical device
+Pile of Rubble|rubbleのMountain
+Pile of Rubble|rubbleのMountain
+Belt Conveyor (V)|ベルトコンベアー（Qi）
+Robot Arm|ロボットアーム
+Server Machine|サーバマシン
+Meters|Instruments
+Duct|ダクト
+Drain|drain outlet
+Graffiti|Drop the bookき
+Graffiti|Drop the bookき
+Monitor A|モニターA
+Monitor B|モニターB
+Large Monitor|Largeモニター
+Large Monitor|Largeモニター
+IV Stand|bitスタンド
+ECG Monitor|ECGモニタ
+Sewing Mannequin|トルソー
+Rubble|rubble
+Operation Board A|Operation panelA
+Operation Board B|Operation panelB
+Operation Board C|Operation panelC
+Operation Board D|Operation panelD
+IV Stand|bitスタンド
+ECG Monitor|ECGモニタ
+Sewing Mannequin|トルソー
+Broken Machine|Leiれたmachinery
+Stairs|stage
+Stairs|stage
+Stairs|stage
+Cage|Threshold
+Cage|Threshold
+Handrail|railing
+Handrail|railing
+Handrail|railing
+Stairs|stage
+Stairs|stage
+Stairs|stage
+Curtains A|カーテンA
+Curtains B|カーテンB
+Curtains C|カーテンC
+Curtains D|カーテンD
+Handrail|railing
+Stairs|stage
+Stairs|stage
+Stairs|stage
+Curtains A|カーテンA
+Curtains B|カーテンB
+Curtains C|カーテンC
+Curtains D|カーテンD
+Emergency Alarm|Veryベル
+Spider Web|spiderのSi
+Mirror|mirror
+Vase|vase
+Piano|ピアノ
+Piano|ピアノ
+Piano|ピアノ
+Stained Glass|ステンドグラス
+Decorative Pillar|decorative column
+Dripping|liquid hangingれ
+Mirror|mirror
+Lamp|electricityスタンド
+Piano|ピアノ
+Piano|ピアノ
+Piano|ピアノ
+Stained Glass|ステンドグラス
+Decorative Pillar|decorative column
+Picture Frame|photo standて
+Side Table|サイドテーブル
+Altar|altar
+Fireplace|stove
+Fireplace|stove
+Fireplace|stove
+Stuffed Doll A|ぬいぐるみA
+Decorative Pillar|decorative column
+Book A|BookA
+Book B|BookB
+Glass Pieces|ガラスpiece
+Fireplace|stove
+Fireplace|stove
+Fireplace|stove
+Doll|Humanoid
+Stuffed Doll B|ぬいぐるみB
+Beer Mug|ビールジョッキ
+Wine & Glass|ワインとグラス
+Noodle Dish|麺 cuisine
+Bread|パン
+Banister A (V)|handすりA（Qi）
+Banister A (V)|handすりA（Qi）
+Banister B (V)|handすりB（Qi）
+Banister B (V)|handすりB（Qi）
+Meat Dish|Meat dishes
+Roast Chicken|ローストチキン
+Cake|ケーキ
+Fruit Bowl|fruitfulりcombineわせ
+Banister A (V)|handすりA（Qi）
+Banister A (V)|handすりA（Qi）
+Banister B (V)|handすりB（Qi）
+Banister B (V)|handすりB（Qi）
+Plate A|dishA
+Teapot & Cup|ティーポットとカップ
+Ration|レーション
+Plate B|dishB
+Banister A (V)|handすりA（Qi）
+Banister A (V)|handすりA（Qi）
+Banister B (V)|handすりB（Qi）
+Banister B (V)|handすりB（Qi）
+Demon Statue|Golem
+Goddess Statue|goddess statue
+Soldier Statue|soldier statue
+Wall Clock|Column timepiece
+Banister A (H)|handすりA（horizontal）
+Banister A (H)|handすりA（horizontal）
+Banister A (H)|handすりA（horizontal）
+Banister A (H)|handすりA（horizontal）
+Demon Statue|Golem
+Goddess Statue|goddess statue
+Soldier Statue|soldier statue
+Wall Clock|Column timepiece
+Banister B (H)|handすりB（horizontal）
+Banister B (H)|handすりB（horizontal）
+Banister B (H)|handすりB（horizontal）
+Banister B (H)|handすりB（horizontal）
+Monument A|モニュメントA
+Monument B|モニュメントB
+Huge Stele|hugeなstone tablet
+Huge Stele|hugeなstone tablet
+Huge Stele|hugeなstone tablet
+Huge Iron Monument|hugeプレート
+Huge Iron Monument|hugeプレート
+Huge Iron Monument|hugeプレート
+Monument A|モニュメントA
+Monument B|モニュメントB
+Huge Stele|hugeなstone tablet
+Huge Stele|hugeなstone tablet
+Huge Stele|hugeなstone tablet
+Huge Iron Monument|hugeプレート
+Huge Iron Monument|hugeプレート
+Huge Iron Monument|hugeプレート
+Monument C|モニュメントC
+Monument D|モニュメントD
+Sphere Machinery|Sphere machinery
+Sphere Machinery|Sphere machinery
+Sphere Machinery|Sphere machinery
+Large Machine|Large machinery
+Large Machine|Large machinery
+Large Machine|Large machinery
+Monument C|モニュメントC
+Control Panel|コントロールパネル
+Sphere Machinery|Sphere machinery
+Sphere Machinery|Sphere machinery
+Sphere Machinery|Sphere machinery
+Large Machine|Large machinery
+Large Machine|Large machinery
+Large Machine|Large machinery

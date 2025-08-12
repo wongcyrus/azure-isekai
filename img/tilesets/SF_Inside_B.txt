@@ -1,0 +1,256 @@
+﻿Transparent|transparent
+Stairs A (Up)|stageA（superiorり）
+Stairs B (Up)|stageB（superiorり）
+Stairs C (Up)|stageC（superiorり）
+Stairs D (Up)|stageD（superiorり）
+Metal Ladder|Ironばしご
+Metal Stairs|metal stage
+Rope|ロープ
+Hole|hole
+Stairs A (Down)|stageA（Downり）
+Stairs B (Down)|stageB（Downり）
+Stairs C (Down)|stageC（Downり）
+Stairs D (Down)|stageD（Downり）
+Metal Ladder|Ironばしご
+Metal Stairs|metal stage
+Rope|ロープ
+Midsize Window A|Medium sizeA
+Midsize Window B|Medium sizeB
+Large Window A|Large scaleA
+Midsize Window C|Medium sizeC
+Large Window B|Large scaleB
+Metal Ladder|Ironばしご
+Metal Stairs|metal stage
+Rope|ロープ
+Midsize Window A|Medium sizeA
+Midsize Window B|Medium sizeB
+Large Window A|Large scaleA
+Midsize Window C|Medium sizeC
+Large Window B|Large scaleB
+Hole A (Metal Ladder)|holeA（Ironばしご）
+Hole B (Metal Stairs)|holeB（metal stage）
+Hole C (Rope)|holeC（ロープ）
+Asphalt Bridge (V)|アスファルトのbridge（Qi）
+Asphalt Bridge (H)|アスファルトのbridge（horizontal）
+Stone Bridge (V)|stoneのbridge（Qi）
+Stone Bridge (H)|stoneのbridge（horizontal）
+Metal Bridge A (V)|MetalのbridgeA（Qi）
+Metal Bridge A (H)|MetalのbridgeA（horizontal）
+Metal Bridge B (V)|MetalのbridgeB（Qi）
+Metal Bridge B (H)|MetalのbridgeB（horizontal）
+Bridge Spar A (Asphalt, Center A)|bridgeげたA（アスファルト・centralA）
+Bridge Spar A (Asphalt, Left)|bridgeげたA（アスファルト・Left）
+Bridge Spar A (Asphalt, Center B)|bridgeげたA（アスファルト・centralB）
+Bridge Spar A (Asphalt, Right)|bridgeげたA（アスファルト・right）
+Bridge Spar B (Metal, Center A)|bridgeげたB（Metal・centralA）
+Bridge Spar B (Metal, Left)|bridgeげたB（Metal・Left）
+Bridge Spar B (Metal, Center B)|bridgeげたB（Metal・centralB）
+Bridge Spar B (Metal, Right)|bridgeげたB（Metal・right）
+Metal Fence|Metalフェンス
+Metal Fence|Metalフェンス
+Metal Fence|Metalフェンス
+Warning Plate (Keep Out)|warnプレート（KEEP OUT）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal, Stairs)|bridge（Metal・stage）
+Metal Fence|Metalフェンス
+Warning Plate (Exclamation Mark)|warnプレート（！マーク）
+Metal Fence|Metalフェンス
+Warning Plate (Radioactivity Mark)|warnプレート（radioactive energyマーク）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal, Stairs)|bridge（Metal・stage）
+Metal Fence|Metalフェンス
+Metal Fence|Metalフェンス
+Metal Fence|Metalフェンス
+Warning Plate (Biohazard Mark)|warnプレート（バイオハザードマーク）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal)|bridge（Metal）
+Connecting Bridge (Metal)|bridge（Metal）
+Podium (H)|teaching forum machine（horizontal）
+Pillar A (Asphalt)|columnA（アスファルト）
+Pillar B (Metal)|columnB（Metal）
+Pillar C (Machine)|columnC（machinery）
+Pillar D (Decoration)|columnD（decoration）
+Pillar E (Metal)|columnE（Metal）
+Pillar F (Brick)|columnF（レンガ）
+Large Window C|Large scaleC
+Podium (H)|teaching forum machine（horizontal）
+Pillar A (Asphalt)|columnA（アスファルト）
+Pillar B (Metal)|columnB（Metal）
+Pillar C (Machine)|columnC（machinery）
+Pillar D (Decoration)|columnD（decoration）
+Pillar E (Metal)|columnE（Metal）
+Pillar F (Brick)|columnF（レンガ）
+Large Window C|Large scaleC
+Podium (V)|teaching forum machine（Qi）
+Broken Pillar A (Asphalt)|foldれたcolumnA（アスファルト）
+Broken Pillar B (Metal)|foldれたcolumnB（Metal）
+Broken Pillar C (Machine)|foldれたcolumnC（machinery）
+Broken Pillar D (Decoration)|foldれたcolumnD（decoration）
+Broken Pillar E (Metal)|foldれたcolumnE（Metal）
+Broken Pillar F (Brick)|foldれたcolumnF（レンガ）
+Barricade (No Entry)|バリケード（No access）
+Podium (V)|teaching forum machine（Qi）
+Girder A (Asphalt, Left)|LiangA（アスファルト・Left）
+Girder A (Asphalt, Center)|LiangA（アスファルト・central）
+Girder A (Asphalt, Right)|LiangA（アスファルト・right）
+Girder C (Decoration, Left)|LiangC（decoration・Left）
+Girder C (Decoration, Center)|LiangC（decoration・central）
+Girder C (Decoration, Right)|LiangC（decoration・right）
+Bar (No Entry)|バー（No access）
+Bar (No Entry)|バー（No access）
+Girder B (Metal, Left)|LiangB（Metal・Left）
+Girder B (Metal, Center)|LiangB（Metal・central）
+Girder B (Metal, Right)|LiangB（Metal・right）
+Rubble A (Asphalt)|rubbleA（アスファルト）
+Rubble B (Metal)|rubbleB（Metal）
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Jail Bars|iron grid
+Laser Barrier|レーザーバリア
+Wheelchair (Left)|vehicleいす（Left）
+Wheelchair (Right)|vehicleいす（right）
+Pipe Frame Bed (Ruins)|パイプベッド（Abandoned ruins）
+Fissures A|crackedA
+Fissures B|crackedB
+Fissures C|crackedC
+Jail Bars|iron grid
+Laser Barrier|レーザーバリア
+Wheelchair (Bottom)|vehicleいす（Down）
+Wheelchair (Fallen)|vehicleいす（fallれ）
+Pipe Frame Bed (Ruins)|パイプベッド（Abandoned ruins）
+Lab Equipment|Ceramic utensils
+School Desk (V)|school machine（Qi）
+School Desk (H)|school machine（horizontal）
+TV|テレビ
+Computer|PC
+Laptop|ノートPC
+Printer|プリンター
+Telephone|telephone
+Intercom (Hanging)|インターホン（wall hangingけ）
+Tablet Device|タブレットDuanmo
+Table Clock|Set timepiece
+Gas Stove|ガスコンロ
+Kitchen Counter|Cooking table
+Sink|flowし
+Exhaust Fan|Replace the fan
+Air Conditioner|エアコン
+Wastebasket|ゴミbox
+Book Stand|Benliて
+Document|Books
+School Chair (Bottom)|Schoolイス（Down）
+School Chair (Top)|Schoolイス（superior）
+School Chair (Right)|Schoolイス（right）
+School Chair (Left)|Schoolイス（Left）
+Sofa (Right)|ソファ（right）
+Sofa (Left)|ソファ（Left）
+Sofa (Down)|ソファ（Down）
+Sofa (Up)|ソファ（Down）
+Office Chair (Bottom)|オフィスチェア（Down）
+Office Chair (Top)|オフィスチェア（superior）
+Office Chair (Right)|オフィスチェア（right）
+Office Chair (Left)|オフィスチェア（Left）
+Sofa (Right)|ソファ（right）
+Sofa (Left)|ソファ（Left）
+Sofa (Top)|ソファ（superior）
+Sofa (Top)|ソファ（superior）
+Washing Machine|washing machine
+Western Style Toilet|Western style toilet
+Urinal|Male toilet
+Bathroom Sink|washbasin
+Bathtub (V)|バスタブ（Qi）
+Bathtub (H)|バスタブ（horizontal）
+Bathtub (H)|バスタブ（horizontal）
+Glass Table (V)|ガラステーブル（Qi）
+Washing Machine|washing machine
+Western Style Toilet|Western style toilet
+Urinal|Male toilet
+Wash Basin|washbasin
+Bathtub (V)|バスタブ（Qi）
+Glass Table (H)|ガラステーブル（horizontal）
+Glass Table (H)|ガラステーブル（horizontal）
+Glass Table (V)|ガラステーブル（Qi）
+Refrigerator|Lengzangku
+Bookshelf A|Ben ShengA
+Chest of Drawers A|タンスA
+Miscellaneous Item Shelf|Qiu goods shed
+Locker A|ロッカーA
+Document Shelf|information shed
+Medicine Shelf|Drinking shed
+Locker B (School)|ロッカーB（School）
+Refrigerator|Lengzangku
+Bookshelf A|Ben ShengA
+Chest of Drawers A|タンスA
+Miscellaneous Item Shelf |Qiu goods shed
+Locker A|ロッカーA
+Document Shelf|information shed
+Medicine Shelf|Drinking shed
+Locker B (School)|ロッカーB（School）
+Display Shelf A|Product display shedA
+Display Shelf B|Product display shedB
+Convenience Store Shelf A|コンビニshedA
+Convenience Store Shelf B|コンビニshedB
+Document Shelf (Ruins)|information shed（Abandoned ruins）
+Chest of Drawers B (Decoration)|タンスB（decoration）
+Shelf A (Decoration)|shedA（decoration）
+Bookshelf B (Decoration)|Ben ShengB（decoration）
+Display Shelf A|Product display shedA
+Display Shelf B|Product display shedB
+Convenience Store Shelf A|コンビニshedA
+Convenience Store Shelf B|コンビニshedB
+Document Shelf (Ruins)|information shed（Abandoned ruins）
+Chest of Drawers B (Decoration)|タンスB（decoration）
+Shelf A (Decoration)|shedA（decoration）
+Bookshelf B (Decoration)|Ben ShengB（decoration）
+Stacked Crates|Accumulateまれたwooden box
+Shipping Container|コンテナ
+Stacked Cardboard Boxes|Accumulateまれたダンボール
+Vending Machine|Vending machine
+ATM|ATM
+Steel Shelf|Iron Bone Shed
+Operating Table|operating table
+Hospital Bed|hospitalベッド
+Stacked Crates|Accumulateまれたwooden box
+Shipping Container|コンテナ
+Stacked Cardboard Boxes|Accumulateまれたダンボール
+Vending Machine|Vending machine
+ATM|ATM
+Steel Shelf|Iron Bone Shed
+Operating Table|operating table
+Hospital Bed|hospitalベッド
+Bed|ベッド
+Mattress|Apply cloth
+Large Bed|ダブルベッド
+Large Bed|ダブルベッド
+Pipe Frame Bed|パイプベッド
+Slot Machine |スロット
+Poker Table|ポーカーtower
+Poker Table|ポーカーtower
+Bed|ベッド
+Mattress|Apply cloth
+Large Bed|ダブルベッド
+Large Bed|ダブルベッド
+Pipe Frame Bed|パイプベッド
+Slot Machine|スロット
+Poker Table|ポーカーtower
+Poker Table|ポーカーtower
+Chest A (Wood)|チェストA（wooden）
+Chest B (Metal)|チェストB（Metal）
+Chest C (Decoration)|チェストC（decoration）
+Large Desk A|bigきいデスクA
+Large Desk A|bigきいデスクA
+Roulette Table|ルーレットtower
+Roulette Table|ルーレットtower
+Roulette Table|ルーレットtower
+Side Desk A (Wood)|サイドデスクA（wooden）
+Side Desk B (Metal)|サイドデスクB（Metal）
+Desk|デスク
+Large Desk B|bigきいデスクB
+Large Desk B|bigきいデスクB
+Roulette Table|ルーレットtower
+Roulette Table|ルーレットtower
+Roulette Table|ルーレットtower

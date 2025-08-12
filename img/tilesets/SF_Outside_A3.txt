@@ -1,0 +1,32 @@
+Roof A (Metal)|roof rootA（Metal）
+Roof B (Metal, Red Rust)|roof rootB（Metal・Chiqiu）
+Roof C (Metal, Patina)|roof rootC（Metal・green green）
+Roof D (Barracks)|roof rootD（バラック）
+Roof E (Barracks)|roof rootE（バラック）
+Roof F (Factory)|roof rootF（workshop）
+Roor G (Ivy)|roof rootG（ツタ）
+Roof H (House)|roof rootH（modern house）
+Outer Wall A (Metal)|outer wallA（Metal）
+Outer Wall B (Metal, Red Rust)|outer wallB（Metal・Chiqiu）
+Outer Wall C (Metal, Patina)|outer wallC（Metal・green green）
+Outer Wall D (Barracks)|outer wallD（バラック）
+Outer Wall E (Barracks)|outer wallE（バラック）
+Outer Wall F (Factory)|outer wallF（workshop）
+Outer Wall G (Ivy)|outer wallG（ツタ）
+Outer Wall H (House)|outer wallH（modern house）
+Roof I (House)|roof rootI（modern house）
+Roof J (Brick)|roof rootJ（レンガ）
+Roof K (Brick)|roof rootK（レンガ）
+Roof L (Chinese)|roof rootL（Chinese style）
+Roof M (Blue Sheet)|roof rootM（ブルーシート）
+Roof N (Wood)|roof rootN（wooden）
+Roof O (Brick)|roof rootO（レンガ）
+Roof P (Wood)|roof rootP（wooden）
+Outer Wall I (House)|outer wallI（modern house）
+Outer Wall J (Brick)|outer wallJ（レンガ）
+Outer Wall K (Brick)|outer wallK（レンガ）
+Outer Wall L (Chinese)|outer wallL（Chinese style）
+Outer Wall M (Blue Sheet)|outer wallM（ブルーシート）
+Outer Wall N (Wood)|outer wallN（wooden）
+Outer Wall O (Brick)|outer wallO（レンガ）
+Outer Wall P (Wood)|outer wallP（wooden）

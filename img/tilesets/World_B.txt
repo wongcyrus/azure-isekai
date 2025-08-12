@@ -1,0 +1,256 @@
+﻿Transparent|transparent
+Sign|standてZha
+Pier (H)|zhuoqiao（horizontal）
+Pier (V)|zhuoqiao（Qi）
+Pond|pool
+Oasis|オアシス
+Pond (Ice)|pool（ice）
+Beanstalk|beanのWood
+Tent|テント
+Igloo|iceのHome
+Pyramid|ピラミッド
+Giant Tree|big tree
+Giant Tree (Snow)|big tree（Snow）
+Dirt|soil sand
+Avalanche|avalanche
+Beanstalk|beanのWood
+Cave A|caveA
+Cave B|caveB
+Cave (Collapsed)|cave（landslideれ）
+Mine|tunnel
+Tunnel|トンネル
+Tunnel (Blocked)|トンネル（pass onlyめ）
+Shrine|ほこら
+Shrine (Snow)|ほこら（Snow）
+Crater|クレーター
+Trail|mountain road
+Rock Mountain|rock mountain
+Rock Mountain|rock mountain
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Snow)|rock mountain（Snow）
+Rock Mountain (Snow)|rock mountain（Snow）
+Volcano Crater (Lava)|mouth of fire（lava）
+Volcano Crater (Lava)|mouth of fire（lava）
+Rock Mountain|rock mountain
+Rock Mountain|rock mountain
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Snow)|rock mountain（Snow）
+Rock Mountain (Snow)|rock mountain（Snow）
+Volcano Crater|mouth of fire
+Volcano Crater|mouth of fire
+Rock Mountain|rock mountain
+Rock Mountain|rock mountain
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Snow)|rock mountain（Snow）
+Rock Mountain (Snow)|rock mountain（Snow）
+Volcano|volcano
+Volcano|volcano
+Rock Mountain|rock mountain
+Rock Mountain|rock mountain
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Sandstone)|rock mountain（sandstone）
+Rock Mountain (Snow)|rock mountain（Snow）
+Rock Mountain (Snow)|rock mountain（Snow）
+Town A|townA
+Town A|townA
+Town B|townB
+Town B|townB
+Village A|villageA
+Village A|villageA
+Village B|villageB
+House (Town)|Home（town）
+Town C|townC
+Town D|townD
+Village C|villageC
+Village D|villageD
+Town E (Desert)|townE（desert）
+Town E (Desert)|townE（desert）
+Town F (Desert)|townF（desert）
+House (Village)|Home（village）
+Town A (Snow)|townA（Snow）
+Town A (Snow)|townA（Snow）
+Town B (Snow)|townB（Snow）
+Town B (Snow)|townB（Snow）
+Town G (Desert)|townG（desert）
+Town G (Desert)|townG（desert）
+Large Tent|bigきなテント
+House (Desert)|Home（desert）
+Town C (Snow)|townC（Snow）
+Town D (Snow)|townD（Snow）
+Village C (Snow)|villageC（Snow）
+Village D (Snow)|villageD（Snow）
+Village A (Snow)|villageA（Snow）
+Village A (Snow)|villageA（Snow）
+Village B (Snow)|villageB（Snow）
+House (Snow)|Home（Snow）
+Fortress City |Fortress city
+Fortress City |Fortress city
+Fortress City (Snow)|Fortress city（Snow）
+Fortress City (Snow)|Fortress city（Snow）
+Large Mansion|bigきなYashiki
+Large Mansion|bigきなYashiki
+School of Magic|magic school
+School of Magic|magic school
+Fortress City |Fortress city
+Fortress City |Fortress city
+Fortress City (Snow)|Fortress city（Snow）
+Fortress City (Snow)|Fortress city（Snow）
+Large Mansion|bigきなYashiki
+Large Mansion|bigきなYashiki
+School of Magic|magic school
+School of Magic|magic school
+Bridge (H)|bridge（horizontal）
+Bridge (V)|bridge（Qi）
+Collapsed Bridge (H)|collapseれたbridge（horizontal）
+Collapsed Bridge (V)|collapseれたbridge（Qi）
+Snow Bridge (H)|Snowのbridge（horizontal）
+Snow Bridge (V)|Snowのbridge（Qi）
+Collapsed Snow Bridge (H)|collapseれたSnowのbridge（horizontal）
+Collapsed Snow Bridge (V)|collapseれたSnowのbridge（Qi）
+Tower A|towerA
+Tower A (Ruins)|towerA（Abandoned ruins）
+Tower B|towerB
+Tower C|towerC
+Tower A (Snow)|towerA（Snow）
+Tower D|towerD
+Temple A|templeA
+Temple A (Snow)|templeA（Snow）
+Tower A|towerA
+Tower A (Ruins)|towerA（Abandoned ruins）
+Tower B|towerB
+Tower C|towerC
+Tower A (Snow)|towerA（Snow）
+Tower D (Ruins)|towerD（Abandoned ruins）
+Temple B|templeB
+Temple C|templeC
+Castle A|cityA
+Castle A|cityA
+Castle B|cityB
+Castle B|cityB
+Fort A|villageA
+Fort A|villageA
+Fort B|villageB
+Fort B|villageB
+Castle A|cityA
+Castle A|cityA
+Castle B|cityB
+Castle B|cityB
+Fort A|villageA
+Fort A|villageA
+Fort B|villageB
+Fort B|villageB
+Castle C|cityC
+Castle C|cityC
+Castle D|cityD
+Castle D|cityD
+Castle (Ruins)|city（Abandoned ruins）
+Castle (Ruins)|city（Abandoned ruins）
+Fort (Ruins)|village（Abandoned ruins）
+Fort (Ruins)|village（Abandoned ruins）
+Castle C|cityC
+Castle C|cityC
+Castle D|cityD
+Castle D|cityD
+Castle (Ruins)|city（Abandoned ruins）
+Castle (Ruins)|city（Abandoned ruins）
+Fort (Ruins)|village（Abandoned ruins）
+Fort (Ruins)|village（Abandoned ruins）
+Castle A, B (Snow)|cityA・B（Snow）
+Castle A, B (Snow)|cityA・B（Snow）
+Castle C, D (Snow)|cityC・D（Snow）
+Castle C, D (Snow)|cityC・D（Snow）
+Fort (Snow)|village（Snow）
+Fort (Snow)|village（Snow）
+Castle (Ruins, Snow)|city（Abandoned ruins・Snow）
+Castle (Ruins, Snow)|city（Abandoned ruins・Snow）
+Castle A, B (Snow)|cityA・B（Snow）
+Castle A, B (Snow)|cityA・B（Snow）
+Castle C, D (Snow)|cityC・D（Snow）
+Castle C, D (Snow)|cityC・D（Snow）
+Fort (Snow)|village（Snow）
+Fort (Snow)|village（Snow）
+Castle (Ruins, Snow)|city（Abandoned ruins・Snow）
+Castle (Ruins, Snow)|city（Abandoned ruins・Snow）
+Castle (Walled)|city（citywall）
+Castle (Walled)|city（citywall）
+Castle (Walled)|city（citywall）
+Demon Castle|Demon King's Castle
+Demon Castle|Demon King's Castle
+Cursed Castle|呪われたcity
+Cursed Castle|呪われたcity
+Town C (Ruins)|townC（Abandoned ruins）
+Castle (Walled)|city（citywall）
+Castle (Walled)|city（citywall）
+Castle (Walled)|city（citywall）
+Demon Castle|Demon King's Castle
+Demon Castle|Demon King's Castle
+Cursed Castle|呪われたcity
+Cursed Castle|呪われたcity
+Town F (Ruins)|townF（Abandoned ruins）
+Castle (Walled)|city（citywall）
+Castle (Walled)|city（citywall）
+Castle (Walled)|city（citywall）
+Town A (Ruins)|townA（Abandoned ruins）
+Town A (Ruins)|townA（Abandoned ruins）
+Village A (Ruins)|villageA（Abandoned ruins）
+Village A (Ruins)|villageA（Abandoned ruins）
+House (Ruins)|Home（Abandoned ruins）
+Castle Wall (Ruins A)|city ​​wall（Abandoned ruinsA）
+Castle Wall (Ruins B)|city ​​wall（Abandoned ruinsB）
+Castle Wall (Ruins C)|city ​​wall（Abandoned ruinsC）
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall (Gate)|city ​​wall（city ​​gate）
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Barricades|バリケード
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Castle Wall|city ​​wall
+Lookout Post|やぐら
+Floating Continent (Giant Tree)|floating continent（big tree）
+Floating Continent (Giant Tree)|floating continent（big tree）
+Floating Continent|floating continent
+Floating Continent|floating continent
+Floating Continent (Cloud)|floating continent（Cloud）
+Floating Continent (Cloud)|floating continent（Cloud）
+Cloud Land|Cloudのearth
+Cloud Land|Cloudのearth
+Floating Continent (Castle)|floating continent（city）
+Floating Continent (Castle)|floating continent（city）
+Floating Continent|floating continent
+Floating Continent|floating continent
+Floating Continent (Cloud)|floating continent（Cloud）
+Floating Continent (Cloud)|floating continent（Cloud）
+Cloud Land|Cloudのearth
+Cloud Land|Cloudのearth
+Floating Continent (Temple)|floating continent（temple）
+Floating Continent (Temple)|floating continent（temple）
+Floating Continent (Shadow)|floating continent（film）
+Floating Continent (Shadow)|floating continent（film）
+Cloud Land (Temple)|Cloudのearth（temple）
+Cloud Land (Temple)|Cloudのearth（temple）
+Cloud Land (Castle)|Cloudのearth（city）
+Cloud Land (Castle)|Cloudのearth（city）

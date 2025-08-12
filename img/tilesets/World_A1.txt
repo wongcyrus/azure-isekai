@@ -1,0 +1,16 @@
+﻿Sea|ocean
+Deep Sea|deepいocean
+Rock Shoal|rocky reef
+Icebergs|iceberg
+Poison Swamp|poisonのSwamp
+Dead Trees|dryれWood
+Lava|lava
+Lava Bubbles|lavaのBubble
+Pond|pool
+Boulder|rock
+Frozen Sea|frozenったocean
+Whirlpool|vortex
+Land's End|earthのrealm
+Endless Waterfall|Netherにfallちるtaki
+Cloud (Land's End)|Cloud（earthのrealm）
+Cloud|Cloud

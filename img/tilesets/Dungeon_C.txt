@@ -1,0 +1,256 @@
+﻿Decorative Pillar A (Stone)|decorative columnA（stone）
+Decorative Pillar B (Stone)|decorative columnB（stone）
+Decorative Pillar C (Temple)|decorative columnC（ruins）
+Decorative Pillar D (Rock Cave)|decorative columnD（rock cave）
+Decorative Pillar E (Demon Castle)|decorative columnE（Demon King's Castle）
+Decorative Pillar F (Fort)|decorative columnF（village）
+Decorative Pillar G (Dirt Cave)|decorative columnG（earth cave）
+Decorative Pillar H (Factory)|decorative columnH（workshop）
+Decorative Pillar A (Stone)|decorative columnA（stone）
+Decorative Pillar B (Stone)|decorative columnB（stone）
+Decorative Pillar C (Temple)|decorative columnC（ruins）
+Decorative Pillar D (Rock Cave)|decorative columnD（rock cave）
+Decorative Pillar E (Demon Castle)|decorative columnE（Demon King's Castle）
+Decorative Pillar F (Fort)|decorative columnF（village）
+Decorative Pillar G (Dirt Cave)|decorative columnG（earth cave）
+Decorative Pillar H (Factory)|decorative columnH（workshop）
+Decorative Pillar A (Stone)|decorative columnA（stone）
+Decorative Pillar B (Stone)|decorative columnB（stone）
+Decorative Pillar C (Temple)|decorative columnC（ruins）
+Decorative Pillar D (Rock Cave)|decorative columnD（rock cave）
+Decorative Pillar E (Demon Castle)|decorative columnE（Demon King's Castle）
+Decorative Pillar F (Fort)|decorative columnF（village）
+Decorative Pillar G (Dirt Cave)|decorative columnG（earth cave）
+Decorative Pillar H (Factory)|decorative columnH（workshop）
+Decorative Pillar A (Stone, Ruins)|decorative columnA（stone・Abandoned ruins）
+Decorative Pillar B (Stone, Ruins)|decorative columnB（stone・Abandoned ruins）
+Decorative Pillar C (Temple, Ruins)|decorative columnC（ruins・Abandoned ruins）
+Decorative Pillar D (Rock Cave, Ruins)|decorative columnD（rock cave・Abandoned ruins）
+Decorative Pillar E (Demon Castle, Ruins)|decorative columnE（Demon King's Castle・Abandoned ruins）
+Decorative Pillar F (Fort, Ruins)|decorative columnF（village・Abandoned ruins）
+Decorative Pillar G (Dirt Cave, Ruins)|decorative columnG（earth cave・Abandoned ruins）
+Decorative Pillar A (Stone, Front, Ruins)|decorative columnA（stone・in front of hand・Abandoned ruins）
+Decorative Pillar A (Stone, Ruins)|decorative columnA（stone・Abandoned ruins）
+Decorative Pillar B (Stone, Ruins)|decorative columnB（stone・Abandoned ruins）
+Decorative Pillar C (Temple, Ruins)|decorative columnC（ruins・Abandoned ruins）
+Decorative Pillar D (Rock Cave, Ruins)|decorative columnD（rock cave・Abandoned ruins）
+Decorative Pillar E (Demon Castle, Ruins)|decorative columnE（Demon King's Castle・Abandoned ruins）
+Decorative Pillar F (Fort, Ruins)|decorative columnF（village・Abandoned ruins）
+Decorative Pillar G (Dirt Cave, Ruins)|decorative columnG（earth cave・Abandoned ruins）
+Decorative Pillar D (Rock Cave, Front, Ruins)|decorative columnF（rock cave・in front of hand・Abandoned ruins）
+Decorative Pillar A (Stone, Ruins)|decorative columnA（stone・Abandoned ruins）
+Decorative Pillar B (Stone, Ruins)|decorative columnB（stone・Abandoned ruins）
+Decorative Pillar C (Temple, Ruins)|decorative columnC（ruins・Abandoned ruins）
+Decorative Pillar D (Rock Cave, Ruins)|decorative columnD（rock cave・Abandoned ruins）
+Decorative Pillar E (Demon Castle, Ruins)|decorative columnE（Demon King's Castle・Abandoned ruins）
+Decorative Pillar F (Fort, Ruins)|decorative columnF（village・Abandoned ruins）
+Decorative Pillar G (Dirt Cave, Ruins)|decorative columnG（earth cave・Abandoned ruins）
+Decorative Pillar F (Fort, Front, Ruins)|decorative columnF（village・in front of hand・Abandoned ruins）
+Decorative Pillar A (Stone, Front)|decorative columnA（stone・in front of hand）
+Decorative Pillar B (Stone, Front)|decorative columnB（stone・in front of hand）
+Decorative Pillar C (Temple, Front)|decorative columnC（temple・in front of hand）
+Decorative Pillar D (Rock Cave, Front)|decorative columnD（rock cave・in front of hand）
+Decorative Pillar E (Demon Castle, Front)|decorative columnE（Demon King's Castle・in front of hand）
+Decorative Pillar F (Fort, Front)|decorative columnF（village・in front of hand）
+Decorative Pillar G (Dirt Cave, Front)|decorative columnG（earth cave・in front of hand）
+Decorative Pillar H (Factory, Front)|decorative columnH（workshop・in front of hand）
+Gate A|doorA
+Gate A|doorA
+Gate A|doorA
+Gate B|doorB
+Gate B|doorB
+Gate B|doorB
+Decorative Pillar I (Demonic)|decorative columnI（Demon）
+Decorative Pillar I (Demonic, Ruins)|decorative columnI（Demon・Abandoned ruins）
+Gate A|doorA
+Gate A|doorA
+Gate A|doorA
+Gate B|doorB
+Gate B|doorB
+Gate B|doorB
+Decorative Pillar I (Demonic)|decorative columnI（Demon）
+Decorative Pillar I (Demonic, Ruins)|decorative columnI（Demon・Abandoned ruins）
+Gate A|doorA
+Gate A|doorA
+Gate A|doorA
+Gate B|doorB
+Gate B|doorB
+Gate B|doorB
+Coffin A (Right)|coffinA（right）
+Coffin A (Right)|coffinA（right）
+Hexagram|magic circle
+Hexagram|magic circle
+Hexagram|magic circle
+Hexagram (Lit)|magic circle（Light）
+Hexagram (Lit)|magic circle（Light）
+Hexagram (Lit)|magic circle（Light）
+Coffin B (Top)|coffinB（superior）
+Coffin C (Bottom)|coffinC（Down）
+Hexagram|magic circle
+Hexagram|magic circle
+Hexagram|magic circle
+Hexagram (Lit)|magic circle（Light）
+Hexagram (Lit)|magic circle（Light）
+Hexagram (Lit)|magic circle（Light）
+Coffin B (Top)|coffinB（superior）
+Coffin C (Bottom)|coffinC（Down）
+Hexagram|magic circle
+Hexagram|magic circle
+Hexagram|magic circle
+Hexagram (Lit)|magic circle（Light）
+Hexagram (Lit)|magic circle（Light）
+Hexagram (Lit)|magic circle（Light）
+Coffin D  (Left)|coffinD（Left）
+Coffin D  (Left)|coffinD（Left）
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Rails (Ruins)|line（Abandoned ruins）
+Rails (Ruins)|line（Abandoned ruins）
+Rails (Ruins)|line（Abandoned ruins）
+Rails (Ruins)|line（Abandoned ruins）
+Rails|line
+Railroad Ties A|sleeperA
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Railroad Ties B|sleeperB
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Rails|line
+Mural A|muralA
+Hieroglyph|ヒエログリフ
+Hieroglyph|ヒエログリフ
+Large Mural A|bigきなmuralA
+Large Mural A|bigきなmuralA
+Large Mural A|bigきなmuralA
+Bed|ベッド
+Bed (Ruins)|ベッド（Abandoned ruins）
+Mural B|muralB
+Hieroglyph|ヒエログリフ
+Hieroglyph|ヒエログリフ
+Large Mural B|bigきなmuralB
+Large Mural B|bigきなmuralB
+Large Mural B|bigきなmuralB
+Bed|ベッド
+Bed (Ruins)|ベッド（Abandoned ruins）
+Middle Window A|Medium sizeA
+Middle Window B|Medium sizeB
+Middle Window C|Medium sizeC
+Middle Window D (Ruins)|Medium sizeD（Abandoned ruins）
+Window (Demon Castle)|瓓（Demon King's Castle）
+Table|テーブル
+Cheap Bed|Coarse powderなベッド
+Straw Bed|むしろのbed
+Middle Window A|Medium sizeA
+Middle Window B|Medium sizeB
+Middle Window C|Medium sizeC
+Middle Window D (Ruins)|Medium sizeD（Abandoned ruins）
+Window (Demon Castle)|瓓（Demon King's Castle）
+Stool|Chair
+Cheap Bed|Coarse powderなベッド
+Straw Bed|むしろのbed
+Large Window A|Large scaleA
+Large Window B|Large scaleB
+Large Window C|Large scaleC
+Stained Glass Window|ステンドグラス
+Large Window D|Large scaleD
+Window A|瓓A
+Window B|瓓B
+Window C|瓓C
+Large Window A|Large scaleA
+Large Window B|Large scaleB
+Large Window C|Large scaleC
+Stained Glass Window|ステンドグラス
+Large Window D|Large scaleD
+Window A|瓓A
+Window B|瓓B
+Window C|瓓C
+Chest A|チェストA
+Cabinet|キャビネット
+Closet|クローゼット
+Chest of Drawers|タンス
+Dish Cabinet|utensil shed
+Wine Rack|ワインセラー
+Bottle Shelf A|ボトルshedA
+Bottle Shelf B|ボトルshedB
+Chest B|チェストB
+Chest C|チェストC
+Closet|クローゼット
+Chest of Drawers|タンス
+Dish Cabinet|utensil shed
+Wine Rack|ワインセラー
+Bottle Shelf A|ボトルshedA
+Bottle Shelf B|ボトルshedB
+Tipped Shelf|fallれたshed
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf B|Qiu goods shedB
+Medicine Shelf|Drinking shed
+Bookshelf A|Ben ShengA
+Bookshelf B|Ben ShengB
+Bookshelf B|Ben ShengB
+Tipped Shelf|fallれたshed
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf A|Qiu goods shedA
+Sundries Shelf B|Qiu goods shedB
+Medicine Shelf|Drinking shed
+Bookshelf A|Ben ShengA
+Bookshelf B|Ben ShengB
+Bookshelf B|Ben ShengB
+Curtains A|カーテンA
+Curtains B|カーテンB
+Curtains C|カーテンC
+Curtains D|カーテンD
+Curtains A (Ruins)|カーテンA（Abandoned ruins）
+Curtains B (Ruins)|カーテンB（Abandoned ruins）
+Curtains C (Ruins)|カーテンC（Abandoned ruins）
+Curtains D (Ruins)|カーテンD（Abandoned ruins）
+Curtains A|カーテンA
+Curtains B|カーテンB
+Curtains C|カーテンC
+Curtains D|カーテンD
+Curtains A (Ruins)|カーテンA（Abandoned ruins）
+Curtains B (Ruins)|カーテンB（Abandoned ruins）
+Curtains C (Ruins)|カーテンC（Abandoned ruins）
+Curtains D (Ruins)|カーテンD（Abandoned ruins）
+Clock|timepiece
+Mirror|mirror
+Clock (Ruins)|timepiece（Abandoned ruins）
+Mirror (Ruins)|mirror（Abandoned ruins）
+Stacked Crates|Accumulateまれたwooden box
+Stacked Crates|Accumulateまれたwooden box
+Tapestry A|タペストリーA
+Tapestry  A (Ruins)|タペストリーA（Abandoned ruins）
+Clock|timepiece
+Mirror|mirror
+Clock (Ruins)|timepiece（Abandoned ruins）
+Mirror (Ruins)|mirror（Abandoned ruins）
+Stacked Crates|Accumulateまれたwooden box
+Stacked Crates|Accumulateまれたwooden box
+Tapestry A|タペストリーA
+Tapestry  A (Ruins)|タペストリーA（Abandoned ruins）
+Chair A (Wood)|backもたれChairA（wooden）
+Chair B (Stone)|backもたれChairB（stone）
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Chair A (Wood)|backもたれChairA（wooden）
+Chair B (Stone)|backもたれChairB（stone）
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne A|AmyrlinA
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）
+Throne B (Demon Castle)|AmyrlinB（Demon King's Castle）

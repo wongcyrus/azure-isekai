@@ -1,0 +1,48 @@
+﻿Wall A (Stone)|wallA（stone）
+Wall B (Brick)|wallB（レンガ）
+Wall C (Brick)|wallC（レンガ）
+Wall D (Stone)|wallD（stone）
+Wall E (Stone)|wallE（stone）
+Wall F (Castle)|wallF（city）
+Wall G (Fort)|wallG（village）
+Wall H (Demon Castle)|wallH（Demon King's Castle）
+Wall A (Stone)|wallA（stone）
+Wall B (Brick)|wallB（レンガ）
+Wall C (Brick)|wallC（レンガ）
+Wall D (Stone)|wallD（stone）
+Wall E (Stone)|wallE（stone）
+Wall F (Castle)|wallF（city）
+Wall G (Fort)|wallG（village）
+Wall H (Demon Castle)|wallH（Demon King's Castle）
+Wall I (Wood)|wallI（wooden）
+Wall J (Log)|wallJ（Maruta）
+Wall K (Wood)|wallK（wooden）
+Interior Wall A (Wood)|interior wallA（wooden）
+Interior Wall (Stone)|interior wallB（stone）
+Wall L (Stone)|wallL（stone）
+Wall M (Marble)|wallM（marble）
+Wall N (Concrete)|wallN（コンクリート）
+Wall I (Wood)|wallI（wooden）
+Wall J (Log)|wallJ（Maruta）
+Wall K (Wood)|wallK（wooden）
+Interior Wall A (Wood)|interior wallA（wooden）
+Interior Wall (Stone)|interior wallB（stone）
+Wall L (Stone)|wallL（stone）
+Wall M (Marble)|wallM（marble）
+Wall N (Concrete)|wallN（コンクリート）
+Interior Wall C (Stone)|interior wallC（stone）
+Interior Wall D (Brick)|interior wallD（レンガ）
+Interior Wall E (Stone)|interior wallE（stone）
+Interior Wall F (Desert)|interior wallF（desert wind）
+Interior Wall G (Mansion)|interior wallG（mansion）
+Interior Wall H (Temple)|interior wallH（temple）
+Wall O (Tent)|wallO（テント）
+Wall P (Stage)|wallP（stage）
+Interior Wall C (Stone)|interior wallC（stone）
+Interior Wall D (Brick)|interior wallD（レンガ）
+Interior Wall E (Stone)|interior wallE（stone）
+Interior Wall F (Desert)|interior wallF（desert wind）
+Interior Wall G (Mansion)|interior wallG（mansion）
+Interior Wall H (Temple)|interior wallH（temple）
+Wall O (Tent)|wallO（テント）
+Wall P (Stage)|wallP（stage）
