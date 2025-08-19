@@ -55,7 +55,7 @@
         ".json": "text/json"
     },
     "platform": {
-        "apiRuntime": "node:20"
+        "apiRuntime": "node:18"
     },
     "globalHeaders": {
         "Access-Control-Allow-Origin": "*",
