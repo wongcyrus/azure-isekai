@@ -10,7 +10,6 @@
   const wrapTextLength = 55;
   const urlParams = new URLSearchParams(window.location.search);
   const baseUrl = urlParams.get('baseUrl');
-  const apiKey = urlParams.get('apiKey');
   const game = urlParams.get('game');
   let lastResponse = null;
   let callCount = 0;
@@ -83,14 +82,13 @@
     }
     callCount++;
 
-    let url = `${baseUrl}/game-task?game=${game}&npc=${npcName}`;
+    let url = `/api/game-task?game=${game}&npc=${npcName}`;
     if (lastResponse?.next_game_phrase) {
-      url = `${baseUrl}/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npc=${npcName}`;
+      url = `/api/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npc=${npcName}`;
     }
 
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
-    xhr.setRequestHeader('x-api-key', apiKey);
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         callCount = 0;
