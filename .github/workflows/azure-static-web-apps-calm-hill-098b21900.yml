@@ -26,11 +26,17 @@ jobs:
         with:
           submodules: true
           lfs: false
+
       - name: Replace credentials
         run: |
-          sed -i "s#TENANT_ID##g" $APP_LOCATION/staticwebapp.config.json
-          sed -i "s#AADB2C_PROVIDER_CLIENT_ID#${AADB2C_PROVIDER_CLIENT_ID}#g" $APP_LOCATION/staticwebapp.config.json
-          sed -i "s#AADB2C_PROVIDER_CLIENT_SECRET#${AADB2C_PROVIDER_CLIENT_SECRET}#g" $APP_LOCATION/staticwebapp.config.json
+          CONFIG_FILE="${APP_LOCATION#/}/staticwebapp.config.json"
+          if [ -f "$CONFIG_FILE" ]; then
+            sed -i "s#TENANT_ID##g" "$CONFIG_FILE"
+            sed -i "s#AADB2C_PROVIDER_CLIENT_ID#${AADB2C_PROVIDER_CLIENT_ID}#g" "$CONFIG_FILE"
+            sed -i "s#AADB2C_PROVIDER_CLIENT_SECRET#${AADB2C_PROVIDER_CLIENT_SECRET}#g" "$CONFIG_FILE"
+          else
+            echo "Config file not found: $CONFIG_FILE"
+          fi
 
       - name: Build And Deploy
         id: builddeploy
