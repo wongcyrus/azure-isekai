@@ -44,6 +44,8 @@ jobs:
           app_location: ${{ env.APP_LOCATION }} # App source code path
           api_location: ${{ env.API_LOCATION }} # Api source code path - optional
           output_location: ${{ env.APP_ARTIFACT_LOCATION }} # Built app content directory - optional
+          skip_app_build: true # Set to true if you are using a pre-built app
+          
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
