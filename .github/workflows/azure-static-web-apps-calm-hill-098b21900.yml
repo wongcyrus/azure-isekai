@@ -28,9 +28,9 @@ jobs:
           lfs: false
       - name: Replace credentials
         run: |
-          sed -i "s/TENANT_ID/${{ secrets.TENANT_ID }}/g" app_location/staticwebapp.config.json
-          sed -i "s/AADB2C_PROVIDER_CLIENT_ID/${{ secrets.AADB2C_PROVIDER_CLIENT_ID }}/g" app_location/staticwebapp.config.json
-          sed -i "s/AADB2C_PROVIDER_CLIENT_SECRET/${{ secrets.AADB2C_PROVIDER_CLIENT_SECRET }}/g" app_location/staticwebapp.config.json
+          sed -i "s#TENANT_ID##g" $APP_LOCATION/staticwebapp.config.json
+          sed -i "s#AADB2C_PROVIDER_CLIENT_ID#${AADB2C_PROVIDER_CLIENT_ID}#g" $APP_LOCATION/staticwebapp.config.json
+          sed -i "s#AADB2C_PROVIDER_CLIENT_SECRET#${AADB2C_PROVIDER_CLIENT_SECRET}#g" $APP_LOCATION/staticwebapp.config.json
 
       - name: Build And Deploy
         id: builddeploy
