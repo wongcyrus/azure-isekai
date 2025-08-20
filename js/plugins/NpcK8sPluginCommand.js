@@ -9,7 +9,6 @@
   'use strict';
   const wrapTextLength = 55;
   const urlParams = new URLSearchParams(window.location.search);
-  const baseUrl = urlParams.get('baseUrl');
   const game = urlParams.get('game');
   let lastResponse = null;
   let callCount = 0;

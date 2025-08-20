@@ -10,7 +10,8 @@
     "icon": "icon/icon.png"
   },
    "scripts": {
-    "build": "cd api && npm install && npm run build"
+    "build": "cd api && npm install && npm run build",
+    "dev": "swa start ./ --api-location api"
   }, 
   "devDependencies": {
     "husky": "^9.1.7",
