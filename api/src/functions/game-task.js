@@ -9,7 +9,7 @@ app.http('game-task', {
         const encoded = Buffer.from(header, 'base64');
         const decoded = encoded.toString('ascii');
         const clientPrincipal = JSON.parse(decoded);
-        const email = clientPrincipal?.userDetails?.email || 'unknown';
+        const email = clientPrincipal?.userDetails || 'unknown';
 
         context.log(`HTTP GET /game-task called with URL: ${request.url}`);
 
