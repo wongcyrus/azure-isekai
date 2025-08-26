@@ -9,10 +9,10 @@
     "height": 624,
     "icon": "icon/icon.png"
   },
-   "scripts": {
+  "scripts": {
     "build": "cd api && npm install && npm run build",
     "dev": "swa start ./ --api-location api"
-  }, 
+  },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^15.3.0",
