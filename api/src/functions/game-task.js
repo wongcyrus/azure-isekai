@@ -35,11 +35,11 @@ app.http('game-task', {
         const timeout = setTimeout(() => {
             controller.abort();
             context.log.error('Fetch request to GameTaskFunctionUrl timed out.');
-        }, 5000); // 5 seconds timeout
+        }, 60000); // 60 seconds timeout
 
         let response;
         try {
-            const fullUrl = `${gameTaskFunctionUrl}?${params.toString()}`;
+            const fullUrl = `${gameTaskFunctionUrl}&${params.toString()}`;
             context.log(`Calling GameTaskFunctionUrl with: ${fullUrl}`);
             response = await fetch(fullUrl, {
                 method: 'GET',
