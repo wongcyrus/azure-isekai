@@ -18,6 +18,7 @@ app.http('game-task', {
 
         context.log(`Game: ${game}, NPC: ${npc}, User: ${email}`);
         const gameTaskFunctionUrl = process.env.GameTaskFunctionUrl;
+        context.log(`GameTaskFunctionUrl: ${gameTaskFunctionUrl}`);
         if (!gameTaskFunctionUrl) {
             context.log.error('GameTaskFunctionUrl environment variable is not set.');
             throw new Error('GameTaskFunctionUrl environment variable is not set.');
@@ -29,9 +30,27 @@ app.http('game-task', {
             email
         });
 
-        const response = await fetch(`${gameTaskFunctionUrl}?${params.toString()}`, {
-            method: 'GET'
-        });
+        // Add timeout to prevent hanging fetch
+        const controller = new AbortController();
+        const timeout = setTimeout(() => {
+            controller.abort();
+            context.log.error('Fetch request to GameTaskFunctionUrl timed out.');
+        }, 5000); // 5 seconds timeout
+
+        let response;
+        try {
+            const fullUrl = `${gameTaskFunctionUrl}?${params.toString()}`;
+            context.log(`Calling GameTaskFunctionUrl with: ${fullUrl}`);
+            response = await fetch(fullUrl, {
+                method: 'GET',
+                signal: controller.signal
+            });
+        } catch (err) {
+            clearTimeout(timeout);
+            context.log.error('Error calling GameTaskFunctionUrl:', err);
+            throw err;
+        }
+        clearTimeout(timeout);
 
         if (!response.ok) {
             context.log.error(`Failed to call GameTaskFunctionUrl: ${response.statusText}`);
