@@ -9,8 +9,8 @@
   'use strict';
   const wrapTextLength = 55;
   const urlParams = new URLSearchParams(window.location.search);
-  const game = urlParams.get('game');
-  let lastResponse = null;
+  const game = urlParams.get('game') || 'azure-learning';
+  let gameStates = {}; // Store game state per NPC
   let callCount = 0;
 
   const popitup = (url) => {
@@ -54,63 +54,153 @@
     return wrappedText;
   };
 
-  const callApi = (npcName) => {
-    if (callCount == 0) {
-      $gameMessage.add('Hello!');
+  const getGameState = (npcName) => {
+    if (!gameStates[npcName]) {
+      gameStates[npcName] = {
+        hasActiveTask: false,
+        lastInteraction: 'NONE', // NONE, TASK_ASSIGNED, GRADING
+        taskName: '',
+        lastResponse: null,
+        callCount: 0
+      };
     }
-    if (callCount > 0) {
-      let message = 'I am working on it now!';
-      if (lastResponse?.next_game_phrase) {
-        switch (lastResponse?.next_game_phrase) {
-          case 'SETUP':
-            message = 'I am setting up it for you!';
-            break;
-          case 'READY':
-            message = 'I am making sure it is ready for the challenge!';
-            break;
-          case 'CHALLENGE':
-            message = 'I am running the challenge now!';
-            break;
-          case 'CHECK':
-            message = 'I am checking the game now!';
-            break;
-        }
-      }
-      $gameMessage.add(message);
+    return gameStates[npcName];
+  };
+
+  const updateGameState = (npcName, response) => {
+    const state = getGameState(npcName);
+    state.lastResponse = response;
+    
+    if (response.task_name) {
+      state.taskName = response.task_name;
+    }
+    
+    // Update state based on response
+    if (response.next_game_phrase === 'TASK_ASSIGNED') {
+      state.hasActiveTask = true;
+      state.lastInteraction = 'TASK_ASSIGNED';
+    } else if (response.next_game_phrase === 'READY_FOR_NEXT' || response.task_completed) {
+      state.hasActiveTask = false;
+      state.lastInteraction = 'NONE';
+      state.taskName = '';
+    }
+  };
+
+  const callApi = (npcName) => {
+    const state = getGameState(npcName);
+    
+    // Handle initial greeting
+    if (state.callCount === 0) {
+      $gameMessage.add('Hello! I can help you with Azure learning tasks.');
+      state.callCount++;
       return;
     }
-    callCount++;
 
-    let url = `/api/game-task?game=${game}&npc=${npcName}`;
-    if (lastResponse?.next_game_phrase) {
-      url = `/api/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npc=${npcName}`;
+    // If currently processing, show status message
+    if (state.callCount > 0 && state.callCount < 2) {
+      let message = 'Let me help you with that...';
+      if (state.hasActiveTask) {
+        message = 'I am checking your work now. Please wait...';
+      }
+      $gameMessage.add(message);
+      state.callCount++;
+      return;
+    }
+
+    // Reset call count for actual API call
+    state.callCount = 0;
+
+    let url;
+    let isGradingCall = false;
+
+    // Determine which API to call based on current state
+    if (!state.hasActiveTask) {
+      // Get new task
+      url = `/api/game-task?game=${game}&npc=${npcName}`;
+    } else {
+      // Run grading for current task
+      url = `/api/grader?game=${game}&npc=${npcName}`;
+      isGradingCall = true;
     }
 
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
-        callCount = 0;
+        state.callCount = 0;
         if (xhr.status === 200) {
           const json = JSON.parse(xhr.response);
-          console.log(json);
-          if (json.status !== 'OK' && json.report_url) {
-            if (json.report_url && json.easter_egg_url)
-              popitup2(json.easter_egg_url, json.report_url);
-            else if (json.report_url) popitup(json.report_url);
+          console.log('API Response:', json);
+          
+          updateGameState(npcName, json);
+
+          // Handle different response types
+          if (json.status !== 'OK') {
+            $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
+            return;
           }
+
+          // Show message
           if (json.message) {
             $gameMessage.add(wrapText(json.message));
           }
-          if (json.status === 'OK') {
-            if (json.easter_egg_url) popitup(json.easter_egg_url);
-            lastResponse = json;
+
+          // Handle URLs
+          if (json.report_url && json.easter_egg_url) {
+            popitup2(json.easter_egg_url, json.report_url);
+          } else if (json.report_url) {
+            popitup(json.report_url);
+          } else if (json.easter_egg_url) {
+            popitup(json.easter_egg_url);
           }
+
+          // Show additional information
+          if (json.score !== undefined) {
+            $gameMessage.add(`Current Score: ${json.score}`);
+          }
+          if (json.completed_tasks !== undefined) {
+            $gameMessage.add(`Completed Tasks: ${json.completed_tasks}`);
+          }
+
+          // Show task completion celebration
+          if (json.task_completed) {
+            $gameMessage.add('🎉 Congratulations! Task completed! 🎉');
+            $gameMessage.add('Talk to me again for your next challenge!');
+            if (json.easter_egg_url) {
+              popitup(json.easter_egg_url);
+            }
+          }
+
+          // Show test results if available (for failed attempts)
+          if (json.additional_data && json.additional_data.testResults) {
+            const passed = json.additional_data.passedTests || 0;
+            const total = json.additional_data.totalTests || 0;
+            $gameMessage.add(`Test Results: ${passed}/${total} tests passed`);
+            if (passed < total) {
+              $gameMessage.add('Please fix the issues and talk to me again.');
+            }
+          }
+
+          // Show next steps
+          if (json.next_game_phrase === 'TASK_ASSIGNED' && !isGradingCall) {
+            $gameMessage.add('Complete this task and come back to me for grading!');
+          } else if (json.next_game_phrase === 'ALL_COMPLETED') {
+            $gameMessage.add('🏆 You are an Azure master! Well done! 🏆');
+          }
+
         } else {
-          $gameMessage.add('Sorry I cannot connect to the server!');
+          $gameMessage.add('Sorry, I cannot connect to the server right now!');
+          console.error('API Error:', xhr.status, xhr.statusText);
         }
       }
     };
+    
+    xhr.onerror = function() {
+      state.callCount = 0;
+      $gameMessage.add('Network error occurred. Please check your connection.');
+      console.error('Network error in API call');
+    };
+    
     xhr.send();
   };
 
@@ -122,6 +212,26 @@
       const npcName = args[0];
       console.log('NpcK8sPluginCommand Called by ' + npcName);
       callApi(npcName);
+    }
+  };
+
+  // Add a global function to reset game state (for debugging)
+  window.resetGameState = function(npcName) {
+    if (npcName) {
+      delete gameStates[npcName];
+      console.log(`Reset game state for ${npcName}`);
+    } else {
+      gameStates = {};
+      console.log('Reset all game states');
+    }
+  };
+
+  // Add a global function to check game state (for debugging)
+  window.checkGameState = function(npcName) {
+    if (npcName) {
+      console.log(`Game state for ${npcName}:`, gameStates[npcName]);
+    } else {
+      console.log('All game states:', gameStates);
     }
   };
 })();
