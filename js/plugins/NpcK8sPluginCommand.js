@@ -103,9 +103,12 @@
     if (state.callCount > 0 && state.callCount < 2) {
       let message = 'Let me help you with that...';
       if (state.hasActiveTask) {
-        message = 'I am checking your work now. Please wait...';
+        message = 'I am checking your Azure work now. This may take 1-2 minutes, please wait...';
+        $gameMessage.add(message);
+        $gameMessage.add('⏳ Running tests on your Azure infrastructure...');
+      } else {
+        $gameMessage.add(message);
       }
-      $gameMessage.add(message);
       state.callCount++;
       return;
     }
@@ -124,6 +127,10 @@
       // Run grading for current task
       url = `/api/grader?game=${game}&npc=${npcName}`;
       isGradingCall = true;
+      
+      // Show immediate feedback for grading
+      $gameMessage.add('🔍 Starting to grade your Azure work...');
+      $gameMessage.add('⏳ This will take 1-2 minutes. Please be patient!');
     }
 
     const xhr = new XMLHttpRequest();
@@ -155,6 +162,19 @@
           if (json.next_game_phrase === 'WRONG_NPC_FOR_GRADING') {
             $gameMessage.add(wrapText(json.message));
             return;
+          }
+
+          if (json.next_game_phrase === 'ENCOURAGE_VARIETY') {
+            $gameMessage.add(wrapText(json.message));
+            if (json.additional_data && json.additional_data.suggestion) {
+              $gameMessage.add(json.additional_data.suggestion);
+            }
+            return;
+          }
+
+          // Show completion message for grading
+          if (isGradingCall) {
+            $gameMessage.add('✅ Grading completed!');
           }
 
           // Show message
