@@ -83,6 +83,9 @@
       state.hasActiveTask = false;
       state.lastInteraction = 'NONE';
       state.taskName = '';
+    } else if (response.next_game_phrase === 'BUSY_WITH_OTHER_NPC' || response.next_game_phrase === 'WRONG_NPC_FOR_GRADING') {
+      // Don't change local state for cross-NPC interactions
+      state.lastInteraction = 'CROSS_NPC_INTERACTION';
     }
   };
 
@@ -137,6 +140,20 @@
           // Handle different response types
           if (json.status !== 'OK') {
             $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
+            return;
+          }
+
+          // Handle special cases for cross-NPC interactions
+          if (json.next_game_phrase === 'BUSY_WITH_OTHER_NPC') {
+            $gameMessage.add(wrapText(json.message));
+            if (json.additional_data && json.additional_data.activeTaskNPC) {
+              $gameMessage.add(`Active task: "${json.additional_data.activeTaskName}" with ${json.additional_data.activeTaskNPC}`);
+            }
+            return;
+          }
+
+          if (json.next_game_phrase === 'WRONG_NPC_FOR_GRADING') {
+            $gameMessage.add(wrapText(json.message));
             return;
           }
 
