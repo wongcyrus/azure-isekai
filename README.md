@@ -1,33 +1,25 @@
-# k8s-isekai
+# Azure-isekai
 
-Kubernetes Isekai (異世界） is an open-source RPG designed for hands-on Kubernetes learning through gamification. Ideal for junior to Higher Diploma students of Hong Kong Institute of Information Technology (HKIIT), it transforms Kubernetes education into an engaging adventure.
+Azure Isekai (異世界) is an open-source RPG designed for hands-on Azure learning through gamification. Ideal for junior to Higher Diploma students of Hong Kong Institute of Information Technology (HKIIT), it transforms Azure education into an engaging adventure.
 
-1. Role-Playing Adventure: Students interact with NPCs who assign Kubernetes tasks.
-2. Task-Based Learning: Tasks involve setting up and managing Kubernetes clusters.
-3. Free Access: Uses AWS Academy Learner Lab with Minikube or Kubernetes.
-4. Scalable Grading: AWS SAM application tests Kubernetes setups within AWS Lambda.
-5. Progress Tracking: Students track progress and earn rewards.
-6. This game offers practical Kubernetes experience in a fun, cost-effective way.
-7. GenAI Chat: Integrates Generative AI to make NPC interactions more dynamic and fun, enhancing the overall learning experience.
+1. Role-Playing Adventure: Students interact with NPCs who assign Azure tasks.
+2. Task-Based Learning: Tasks involve setting up and managing Azure.
+3. Scalable Grading: Application tests Azure setups within Azure Functions.
+4. Progress Tracking: Students track progress and earn rewards.
+5. This game offers practical Azure experience in a fun, cost-effective way.
+6. GenAI Chat: Integrates Generative AI to make NPC interactions more dynamic and fun, enhancing the overall learning experience.
 
 This repository hosts a Web RPG game that you can fork and customize to your liking.
 
-AWS SAM Repo for Backend
-
-https://github.com/wongcyrus/k8s-grader
-
-Kubernetes Unit Test for Game Rule
-
-https://github.com/wongcyrus/k8s-game-rule
 
 ## Demo
 
-[![#Kubernetes Isekai (Alpha) -  free #k8s #rpggame with free #awsacademy learner lab](https://img.youtube.com/vi/dIwNWwz681k/0.jpg)](https://youtu.be/dIwNWwz681k)
+[![#Azure Isekai (Alpha) - free #aks #rpggame](https://img.youtube.com/vi/dIwNWwz681k/0.jpg)](https://youtu.be/dIwNWwz681k)
 
 # Development
 
-This game was created using [RPG maker](https://www.rpgmakerweb.com/), with a custom plugin, "NpcK8sPluginCommand.js," located in the "js\plugins" directory.
-You can modify the game within RPG Maker. To enable non-player characters (NPCs) to interact with the k8s-grader-api, you must configure the Plugin Command.
+This game was created using [RPG maker](https://www.rpgmakerweb.com/), with a custom plugin, "NpcK8sPluginCommand.js," located in the "js\\plugins" directory.
+You can modify the game within RPG Maker. To enable non-player characters (NPCs) to interact with the grader API, you must configure the Plugin Command.
 
 ## How to set the NPC NpcK8sPluginCommand?
 
@@ -49,7 +41,7 @@ You can modify the game within RPG Maker. To enable non-player characters (NPCs)
 2. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 3. Right-click `index.html` and select "Open with Live Server."
 4. Set the query parameters:
-   `?baseUrl=https://ApiGatewayApi.execute-api.us-east-1.amazonaws.com/Prod/&game=game01&apiKey=INDIVIDUAL_API_KEY`
+   `?baseUrl=https://your-api-endpoint/&game=game01&apiKey=INDIVIDUAL_API_KEY`
 
 ## Core Developers
 
