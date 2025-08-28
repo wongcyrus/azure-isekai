@@ -73,9 +73,13 @@
     
     // Update state based on response
     if (response.next_game_phrase === 'TASK_ASSIGNED') {
+      // If user already had an active task, increment counter (they're viewing task again)
+      if (state.hasActiveTask) {
+        state.consecutiveTaskInteractions++;
+      }
+      
       state.hasActiveTask = true;
       state.lastInteraction = 'TASK_ASSIGNED';
-      // Don't reset counter here - let it accumulate for grading detection
     } else if (response.next_game_phrase === 'READY_FOR_NEXT' || response.task_completed) {
       state.hasActiveTask = false;
       state.lastInteraction = 'NONE';
@@ -117,11 +121,6 @@
     } else {
       // Show task details or get new task
       url = `/api/game-task?game=${game}&npc=${npcName}`;
-      
-      // Increment counter if they have an active task
-      if (state.hasActiveTask) {
-        state.consecutiveTaskInteractions++;
-      }
     }
 
     const xhr = new XMLHttpRequest();
