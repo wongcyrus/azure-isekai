@@ -56,7 +56,8 @@
         lastInteraction: 'NONE', // NONE, TASK_ASSIGNED, GRADING
         taskName: '',
         lastResponse: null,
-        isApiCallInProgress: false
+        isApiCallInProgress: false,
+        consecutiveTaskInteractions: 0
       };
     }
     return gameStates[npcName];
@@ -74,13 +75,18 @@
     if (response.next_game_phrase === 'TASK_ASSIGNED') {
       state.hasActiveTask = true;
       state.lastInteraction = 'TASK_ASSIGNED';
+      // Don't reset counter here - let it accumulate for grading detection
     } else if (response.next_game_phrase === 'READY_FOR_NEXT' || response.task_completed) {
       state.hasActiveTask = false;
       state.lastInteraction = 'NONE';
       state.taskName = '';
+      state.consecutiveTaskInteractions = 0; // Reset when task is completed
     } else if (response.next_game_phrase === 'BUSY_WITH_OTHER_NPC' || response.next_game_phrase === 'WRONG_NPC_FOR_GRADING') {
       // Don't change local state for cross-NPC interactions
       state.lastInteraction = 'CROSS_NPC_INTERACTION';
+    } else if (response.next_game_phrase === 'NPC_COOLDOWN' || response.next_game_phrase === 'ENCOURAGE_VARIETY') {
+      // Reset counter for these states
+      state.consecutiveTaskInteractions = 0;
     }
   };
 
@@ -98,18 +104,24 @@
     let url;
     let isGradingCall = false;
 
-    // Determine which API to call based on current state
-    if (!state.hasActiveTask) {
-      // Get new task
-      url = `/api/game-task?game=${game}&npc=${npcName}`;
-    } else {
-      // Run grading for current task
+    // Check if user has active task and this is their second consecutive interaction
+    if (state.hasActiveTask && state.consecutiveTaskInteractions >= 1) {
+      // User wants grading - they've seen the task and are coming back
       url = `/api/grader?game=${game}&npc=${npcName}`;
       isGradingCall = true;
+      state.consecutiveTaskInteractions = 0; // Reset counter
       
       // Show immediate feedback for grading
       $gameMessage.add('🔍 Starting to grade your Azure work...');
       $gameMessage.add('⏳ This will take 1-2 minutes. Please be patient!');
+    } else {
+      // Show task details or get new task
+      url = `/api/game-task?game=${game}&npc=${npcName}`;
+      
+      // Increment counter if they have an active task
+      if (state.hasActiveTask) {
+        state.consecutiveTaskInteractions++;
+      }
     }
 
     const xhr = new XMLHttpRequest();
