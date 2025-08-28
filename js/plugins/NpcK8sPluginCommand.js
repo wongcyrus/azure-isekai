@@ -61,7 +61,7 @@
         lastInteraction: 'NONE', // NONE, TASK_ASSIGNED, GRADING
         taskName: '',
         lastResponse: null,
-        callCount: 0
+        isApiCallInProgress: false
       };
     }
     return gameStates[npcName];
@@ -92,30 +92,14 @@
   const callApi = (npcName) => {
     const state = getGameState(npcName);
     
-    // Handle initial greeting
-    if (state.callCount === 0) {
-      $gameMessage.add('Hello! I can help you with Azure learning tasks.');
-      state.callCount++;
+    // Prevent multiple simultaneous API calls
+    if (state.isApiCallInProgress) {
+      $gameMessage.add('Please wait, I am still processing your request...');
       return;
     }
-
-    // If currently processing, show status message
-    if (state.callCount > 0 && state.callCount < 2) {
-      let message = 'Let me help you with that...';
-      if (state.hasActiveTask) {
-        message = 'I am checking your Azure work now. This may take 1-2 minutes, please wait...';
-        $gameMessage.add(message);
-        $gameMessage.add('⏳ Running tests on your Azure infrastructure...');
-      } else {
-        $gameMessage.add(message);
-      }
-      state.callCount++;
-      return;
-    }
-
-    // Reset call count for actual API call
-    state.callCount = 0;
-
+    
+    state.isApiCallInProgress = true;
+    
     let url;
     let isGradingCall = false;
 
@@ -137,7 +121,8 @@
     xhr.open('GET', url, true);
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
-        state.callCount = 0;
+        state.isApiCallInProgress = false; // Reset flag when call completes
+        
         if (xhr.status === 200) {
           const json = JSON.parse(xhr.response);
           console.log('API Response:', json);
@@ -168,6 +153,14 @@
             $gameMessage.add(wrapText(json.message));
             if (json.additional_data && json.additional_data.suggestion) {
               $gameMessage.add(json.additional_data.suggestion);
+            }
+            return;
+          }
+
+          if (json.next_game_phrase === 'NPC_COOLDOWN') {
+            $gameMessage.add(wrapText(json.message));
+            if (json.additional_data && json.additional_data.cooldownMinutes) {
+              $gameMessage.add(`⏰ Wait ${json.additional_data.cooldownMinutes} more minutes`);
             }
             return;
           }
@@ -233,7 +226,7 @@
     };
     
     xhr.onerror = function() {
-      state.callCount = 0;
+      state.isApiCallInProgress = false; // Reset flag on error
       $gameMessage.add('Network error occurred. Please check your connection.');
       console.error('Network error in API call');
     };
