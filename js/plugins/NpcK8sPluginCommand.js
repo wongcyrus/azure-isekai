@@ -26,11 +26,6 @@
     window.focus();
   };
 
-  const popitup2 = (url1, url2) => {
-    popitup(url1);
-    popitup(url2);
-  };
-
   // Display the text response within the window limits
   const wrapText = (text) => {
     const words = text.split(' ');
@@ -176,11 +171,7 @@
           }
 
           // Handle URLs
-          if (json.report_url && json.easter_egg_url) {
-            popitup2(json.easter_egg_url, json.report_url);
-          } else if (json.report_url) {
-            popitup(json.report_url);
-          } else if (json.easter_egg_url) {
+          if (json.easter_egg_url) {
             popitup(json.easter_egg_url);
           }
 
