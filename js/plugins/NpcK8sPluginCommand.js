@@ -165,7 +165,7 @@
 
           if (json.next_game_phrase === 'NPC_COOLDOWN') {
             $gameMessage.add(wrapText(json.message));
-            if (json.additional_data && json.additional_data.cooldownMinutes) {
+            if (json.additional_data && json.additional_data.cooldownMinutes !== undefined) {
               $gameMessage.add(`⏰ Wait ${json.additional_data.cooldownMinutes} more minutes`);
             }
             return;
