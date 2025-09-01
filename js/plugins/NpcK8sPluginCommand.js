@@ -135,13 +135,7 @@
           
           updateGameState(npcName, json);
 
-          // Handle different response types
-          if (json.status !== 'OK') {
-            $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
-            return;
-          }
-
-          // Handle special cases for cross-NPC interactions
+          // Handle special cases first (regardless of status)
           if (json.next_game_phrase === 'BUSY_WITH_OTHER_NPC') {
             $gameMessage.add(wrapText(json.message));
             if (json.additional_data && json.additional_data.activeTaskNPC) {
@@ -168,6 +162,12 @@
             if (json.additional_data && json.additional_data.cooldownMinutes !== undefined) {
               $gameMessage.add(`⏰ Wait ${json.additional_data.cooldownMinutes} more minutes`);
             }
+            return;
+          }
+
+          // Handle general errors (after special phrase handling)
+          if (json.status !== 'OK') {
+            $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
             return;
           }
 
