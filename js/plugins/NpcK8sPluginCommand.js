@@ -168,6 +168,13 @@
           // Handle general errors (after special phrase handling)
           if (json.status !== 'OK') {
             $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
+            // Also show score and completed tasks for error responses
+            if (json.score !== undefined) {
+              $gameMessage.add(`Current Score: ${json.score}`);
+            }
+            if (json.completed_tasks !== undefined) {
+              $gameMessage.add(`Completed Tasks: ${json.completed_tasks}`);
+            }
             return;
           }
 
@@ -213,11 +220,13 @@
             }
           }
 
-          // Show next steps
-          if (json.next_game_phrase === 'TASK_ASSIGNED' && !isGradingCall) {
-            $gameMessage.add('Complete this task and come back to me for grading!');
-          } else if (json.next_game_phrase === 'ALL_COMPLETED') {
-            $gameMessage.add('🏆 You are an Azure master! Well done! 🏆');
+          // Show next steps (only for successful responses)
+          if (json.status === 'OK') {
+            if (json.next_game_phrase === 'TASK_ASSIGNED' && !isGradingCall) {
+              $gameMessage.add('Complete this task and come back to me for grading!');
+            } else if (json.next_game_phrase === 'ALL_COMPLETED') {
+              $gameMessage.add('🏆 You are an Azure master! Well done! 🏆');
+            }
           }
 
         } else {
