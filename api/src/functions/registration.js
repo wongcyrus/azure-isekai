@@ -7,6 +7,49 @@ app.http('registration', {
         try {
             context.log('HTTP POST /registration called');
 
+            const header = request.headers.get('x-ms-client-principal');
+            let email = 'unknown';
+            
+            if (header) {
+                try {
+                    const encoded = Buffer.from(header, 'base64');
+                    const decoded = encoded.toString('ascii');
+                    const clientPrincipal = JSON.parse(decoded);
+                    email = clientPrincipal?.userDetails || 'unknown';
+                } catch (authError) {
+                    context.log.warn('Failed to parse authentication header:', authError);
+                }
+            }
+
+            context.log(`User email from authentication: ${email}`);
+
+            // Don't proxy the call if email is unknown (user not authenticated)
+            if (email === 'unknown') {
+                context.log.error('User not authenticated - email is unknown');
+                return {
+                    status: 401,
+                    headers: {
+                        'Content-Type': 'text/html'
+                    },
+                    body: `
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authentication Required</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
+        .error { color: #d32f2f; }
+    </style>
+</head>
+<body>
+    <h1 class="error">Authentication Required</h1>
+    <p>You must be logged in to register for Azure Isekai.</p>
+    <p><a href="/login">Click here to login</a></p>
+</body>
+</html>`
+                };
+            }
+
             const studentRegistrationFunctionUrl = process.env.StudentRegistrationFunctionUrl;
             context.log(`StudentRegistrationFunctionUrl: ${studentRegistrationFunctionUrl}`);
             
@@ -26,7 +69,12 @@ app.http('registration', {
 
             // Handle POST request - proxy the form submission
             const formData = await request.formData();
+            
+            // Add email from authentication to form data
+            formData.set('email', email);
+            
             context.log('Processing POST registration request');
+            context.log(`Email added to form data: ${email}`);
 
             const controller = new AbortController();
             const timeout = setTimeout(() => {

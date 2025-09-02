@@ -21,6 +21,18 @@ app.http('game-task', {
 
             context.log(`HTTP GET /game-task called with URL: ${request.url}`);
 
+            // Don't proxy the call if email is unknown (user not authenticated)
+            if (email === 'unknown') {
+                context.log.error('User not authenticated - email is unknown');
+                return {
+                    status: 401,
+                    jsonBody: {
+                        status: 'ERROR',
+                        message: 'Authentication required. Please login to access the game task service.'
+                    }
+                };
+            }
+
             const game = request.query.get('game') || 'unknown';
             const npc = request.query.get('npc') || 'unknown';
 

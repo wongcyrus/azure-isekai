@@ -186,16 +186,11 @@
         <div class="header">
             <h1>🎮 Azure Isekai</h1>
             <p>Student Registration Portal</p>
+            <p style="font-size: 0.9em; color: #888;">Your email will be automatically detected from your login</p>
         </div>
         
         <div id="registrationForm" class="registration-form">
             <form id="registrationFormElement" method="post" action="/api/registration">
-                <div class="form-group">
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" required 
-                           placeholder="Enter your email address">
-                </div>
-                
                 <div class="form-group">
                     <label for="credentials">Azure Service Principal Credentials:</label>
                     <textarea id="credentials" name="credentials" required 
