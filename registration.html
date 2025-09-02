@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Isekai - Student Registration</title>
+    <link rel="icon" href="icon/icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="icon/icon.png" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #333;
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        
+        .header p {
+            color: #666;
+            margin: 10px 0 0 0;
+            font-size: 1.1em;
+        }
+        
+        .registration-form {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1em;
+        }
+        
+        input[type="email"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+            box-sizing: border-box;
+        }
+        
+        input[type="email"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: 'Courier New', monospace;
+            transition: border-color 0.3s;
+            resize: vertical;
+            min-height: 200px;
+            box-sizing: border-box;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .help-text {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+            line-height: 1.4;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+        
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .back-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .credentials-example {
+            background: #e8f4fd;
+            border: 1px solid #bee5eb;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        
+        .credentials-example code {
+            background: #f8f9fa;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Azure Isekai</h1>
+            <p>Student Registration Portal</p>
+        </div>
+        
+        <div id="registrationForm" class="registration-form">
+            <form id="registrationFormElement" method="post" action="/api/registration">
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required 
+                           placeholder="Enter your email address">
+                </div>
+                
+                <div class="form-group">
+                    <label for="credentials">Azure Service Principal Credentials:</label>
+                    <textarea id="credentials" name="credentials" required 
+                              placeholder="Paste your Azure service principal JSON here..."></textarea>
+                    <div class="help-text">
+                        Please paste the complete JSON output from your Azure service principal creation.
+                    </div>
+                    <div class="credentials-example">
+                        <strong>Expected format:</strong><br>
+                        <code>{"appId": "...", "displayName": "...", "password": "...", "tenant": "..."}</code>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    Register for Azure Isekai
+                </button>
+            </form>
+        </div>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Processing your registration...</p>
+        </div>
+        
+        <div class="back-link">
+            <a href="/">← Back to Game</a>
+        </div>
+    </div>
+
+    <script>
+        // Handle form submission
+        document.getElementById('registrationFormElement').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.querySelector('.submit-btn');
+            const loadingDiv = document.getElementById('loading');
+            const formDiv = document.getElementById('registrationForm');
+            
+            // Show loading state
+            formDiv.style.display = 'none';
+            loadingDiv.style.display = 'block';
+            
+            // Submit the form
+            const formData = new FormData(this);
+            
+            fetch('/api/registration', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(html => {
+                // Replace the current page content with the response
+                document.body.innerHTML = html;
+            })
+            .catch(error => {
+                console.error('Registration failed:', error);
+                
+                // Show error and restore form
+                loadingDiv.style.display = 'none';
+                formDiv.style.display = 'block';
+                
+                alert('Registration failed. Please check your credentials and try again.');
+            });
+        });
+
+        // Auto-resize textarea
+        const textarea = document.getElementById('credentials');
+        textarea.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight + 10) + 'px';
+        });
+
+        // Validate JSON format
+        textarea.addEventListener('blur', function() {
+            const value = this.value.trim();
+            if (value) {
+                try {
+                    const parsed = JSON.parse(value);
+                    if (!parsed.appId || !parsed.displayName || !parsed.password || !parsed.tenant) {
+                        this.setCustomValidity('Please ensure your JSON contains appId, displayName, password, and tenant fields.');
+                    } else {
+                        this.setCustomValidity('');
+                    }
+                } catch (e) {
+                    this.setCustomValidity('Please enter valid JSON format.');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
