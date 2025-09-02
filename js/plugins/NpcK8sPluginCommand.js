@@ -56,8 +56,7 @@
         lastInteraction: 'NONE', // NONE, TASK_ASSIGNED, GRADING
         taskName: '',
         lastResponse: null,
-        isApiCallInProgress: false,
-        consecutiveTaskInteractions: 0
+        isApiCallInProgress: false
       };
     }
     return gameStates[npcName];
@@ -73,24 +72,17 @@
     
     // Update state based on response
     if (response.next_game_phrase === 'TASK_ASSIGNED') {
-      // If user already had an active task, increment counter (they're viewing task again)
-      if (state.hasActiveTask) {
-        state.consecutiveTaskInteractions++;
-      }
-      
       state.hasActiveTask = true;
       state.lastInteraction = 'TASK_ASSIGNED';
     } else if (response.next_game_phrase === 'READY_FOR_NEXT' || response.task_completed) {
       state.hasActiveTask = false;
       state.lastInteraction = 'NONE';
       state.taskName = '';
-      state.consecutiveTaskInteractions = 0; // Reset when task is completed
     } else if (response.next_game_phrase === 'BUSY_WITH_OTHER_NPC' || response.next_game_phrase === 'WRONG_NPC_FOR_GRADING') {
       // Don't change local state for cross-NPC interactions
       state.lastInteraction = 'CROSS_NPC_INTERACTION';
     } else if (response.next_game_phrase === 'NPC_COOLDOWN' || response.next_game_phrase === 'ENCOURAGE_VARIETY') {
-      // Reset counter for these states
-      state.consecutiveTaskInteractions = 0;
+      // These are informational messages, don't change task state
     }
   };
 
@@ -108,12 +100,11 @@
     let url;
     let isGradingCall = false;
 
-    // Check if user has active task and this is their second consecutive interaction
-    if (state.hasActiveTask && state.consecutiveTaskInteractions >= 1) {
-      // User wants grading - they've seen the task and are coming back
+    // Check if user has active task - if so, go to grading directly
+    if (state.hasActiveTask) {
+      // User wants grading - they have an active task
       url = `/api/grader?game=${game}&npc=${npcName}`;
       isGradingCall = true;
-      state.consecutiveTaskInteractions = 0; // Reset counter
     } else {
       // Show task details or get new task
       url = `/api/game-task?game=${game}&npc=${npcName}`;
