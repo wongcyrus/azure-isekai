@@ -121,15 +121,7 @@
 
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
-    
-    // Show waiting message only when request actually starts
-    xhr.onloadstart = function() {
-      if (isGradingCall) {
-        $gameMessage.add('🔍 Starting to grade your Azure work...');
-        $gameMessage.add('⏳ This will take 1-2 minutes. Please be patient!');
-      }
-    };
-    
+  
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         state.isApiCallInProgress = false; // Reset flag when call completes
