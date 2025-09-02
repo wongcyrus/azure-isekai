@@ -122,11 +122,13 @@
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     
-    // Show waiting message for grading calls
-    if (isGradingCall) {
-      $gameMessage.add('🔍 Starting to grade your Azure work...');
-      $gameMessage.add('⏳ This will take 1-2 minutes. Please be patient!');
-    }
+    // Show waiting message only when request actually starts
+    xhr.onloadstart = function() {
+      if (isGradingCall) {
+        $gameMessage.add('🔍 Starting to grade your Azure work...');
+        $gameMessage.add('⏳ This will take 1-2 minutes. Please be patient!');
+      }
+    };
     
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
@@ -138,8 +140,10 @@
           
           updateGameState(npcName, json);
 
-          // Handle general errors first
+          // Handle general errors first - clear any waiting messages
           if (json.status !== 'OK') {
+            // Clear message queue for errors to avoid confusion with waiting messages
+            $gameMessage.clear();
             $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
             // Also show score and completed tasks for error responses
             if (json.score !== undefined) {
