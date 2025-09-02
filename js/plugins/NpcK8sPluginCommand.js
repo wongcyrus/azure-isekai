@@ -114,10 +114,6 @@
       url = `/api/grader?game=${game}&npc=${npcName}`;
       isGradingCall = true;
       state.consecutiveTaskInteractions = 0; // Reset counter
-      
-      // Show immediate feedback for grading
-      $gameMessage.add('🔍 Starting to grade your Azure work...');
-      $gameMessage.add('⏳ This will take 1-2 minutes. Please be patient!');
     } else {
       // Show task details or get new task
       url = `/api/game-task?game=${game}&npc=${npcName}`;
@@ -125,6 +121,13 @@
 
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
+    
+    // Show waiting message for grading calls
+    if (isGradingCall) {
+      $gameMessage.add('🔍 Starting to grade your Azure work...');
+      $gameMessage.add('⏳ This will take 1-2 minutes. Please be patient!');
+    }
+    
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         state.isApiCallInProgress = false; // Reset flag when call completes
