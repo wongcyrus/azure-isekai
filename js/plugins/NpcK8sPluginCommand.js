@@ -135,7 +135,20 @@
           
           updateGameState(npcName, json);
 
-          // Handle special cases first (regardless of status)
+          // Handle general errors first
+          if (json.status !== 'OK') {
+            $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
+            // Also show score and completed tasks for error responses
+            if (json.score !== undefined) {
+              $gameMessage.add(`Current Score: ${json.score}`);
+            }
+            if (json.completed_tasks !== undefined) {
+              $gameMessage.add(`Completed Tasks: ${json.completed_tasks}`);
+            }
+            return;
+          }
+
+          // Handle special cases (only for successful responses)
           if (json.next_game_phrase === 'BUSY_WITH_OTHER_NPC') {
             $gameMessage.add(wrapText(json.message));
             if (json.additional_data && json.additional_data.activeTaskNPC) {
@@ -161,19 +174,6 @@
             $gameMessage.add(wrapText(json.message));
             if (json.additional_data && json.additional_data.cooldownMinutes !== undefined) {
               $gameMessage.add(`⏰ Wait ${json.additional_data.cooldownMinutes} more minutes`);
-            }
-            return;
-          }
-
-          // Handle general errors (after special phrase handling)
-          if (json.status !== 'OK') {
-            $gameMessage.add(wrapText(json.message || 'Something went wrong. Please try again.'));
-            // Also show score and completed tasks for error responses
-            if (json.score !== undefined) {
-              $gameMessage.add(`Current Score: ${json.score}`);
-            }
-            if (json.completed_tasks !== undefined) {
-              $gameMessage.add(`Completed Tasks: ${json.completed_tasks}`);
             }
             return;
           }
