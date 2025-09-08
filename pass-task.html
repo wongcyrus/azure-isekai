@@ -159,14 +159,14 @@
                 
                 document.getElementById('loading').style.display = 'none';
                 
-                if (data.status === 'ERROR') {
-                    showError(data.message || 'Failed to load tasks');
+                if (data.success === false || data.error) {
+                    showError(data.error || 'Failed to load tasks');
                     return;
                 }
                 
-                const result = data.data || data;
-                const totalMarks = result.TotalMarks || 0;
-                const passedTasks = result.PassedTasks || [];
+                const result = data.data;
+                const totalMarks = result.totalMarks || 0;
+                const passedTasks = result.passedTasks || [];
                 
                 if (passedTasks.length === 0) {
                     document.getElementById('noTasks').style.display = 'block';
@@ -182,8 +182,8 @@
                         const taskItem = document.createElement('div');
                         taskItem.className = 'task-item';
                         taskItem.innerHTML = `
-                            <span class="task-name">${task.Name}</span>
-                            <span class="task-score">${task.Mark} points</span>
+                            <span class="task-name">${task.name}</span>
+                            <span class="task-score">${task.mark} points</span>
                         `;
                         tasksList.appendChild(taskItem);
                     });
