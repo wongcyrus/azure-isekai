@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Isekai - Completed Tasks</title>
+    <link rel="icon" href="icon/icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="icon/icon.png" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #333;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .score-summary {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .score-summary h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+        
+        .tasks-container {
+            margin-top: 20px;
+        }
+        
+        .task-item {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .task-name {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .task-score {
+            background: #007bff;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .no-tasks {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .back-link:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏆 Completed Tasks</h1>
+            <p>Your Azure learning progress</p>
+        </div>
+        
+        <div id="loading" class="loading">
+            <p>Loading your completed tasks...</p>
+        </div>
+        
+        <div id="error" class="error" style="display: none;"></div>
+        
+        <div id="results" style="display: none;">
+            <div class="score-summary">
+                <h2 id="totalScore">Total Score: 0</h2>
+                <p id="taskCount">0 tasks completed</p>
+            </div>
+            
+            <div class="tasks-container">
+                <h3>Completed Tasks:</h3>
+                <div id="tasksList"></div>
+            </div>
+        </div>
+        
+        <div id="noTasks" class="no-tasks" style="display: none;">
+            <h3>No tasks completed yet</h3>
+            <p>Start your Azure learning journey by playing the game!</p>
+        </div>
+        
+        <a href="index.html" class="back-link">← Back to Game</a>
+    </div>
+
+    <script>
+        async function loadPassedTasks() {
+            try {
+                const response = await fetch('/api/pass-task');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                document.getElementById('loading').style.display = 'none';
+                
+                if (data.status === 'ERROR') {
+                    showError(data.message || 'Failed to load tasks');
+                    return;
+                }
+                
+                const result = data.data || data;
+                const totalMarks = result.TotalMarks || 0;
+                const passedTasks = result.PassedTasks || [];
+                
+                if (passedTasks.length === 0) {
+                    document.getElementById('noTasks').style.display = 'block';
+                } else {
+                    document.getElementById('results').style.display = 'block';
+                    document.getElementById('totalScore').textContent = `Total Score: ${totalMarks}`;
+                    document.getElementById('taskCount').textContent = `${passedTasks.length} tasks completed`;
+                    
+                    const tasksList = document.getElementById('tasksList');
+                    tasksList.innerHTML = '';
+                    
+                    passedTasks.forEach(task => {
+                        const taskItem = document.createElement('div');
+                        taskItem.className = 'task-item';
+                        taskItem.innerHTML = `
+                            <span class="task-name">${task.Name}</span>
+                            <span class="task-score">${task.Mark} points</span>
+                        `;
+                        tasksList.appendChild(taskItem);
+                    });
+                }
+                
+            } catch (error) {
+                console.error('Error loading passed tasks:', error);
+                document.getElementById('loading').style.display = 'none';
+                showError('Failed to load completed tasks. Please try again later.');
+            }
+        }
+        
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+        
+        // Load tasks when page loads
+        document.addEventListener('DOMContentLoaded', loadPassedTasks);
+    </script>
+</body>
+</html>
