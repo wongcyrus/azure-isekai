@@ -20,7 +20,7 @@
       '_blank',
       'scrollbars=1,resizable=1,width=1000,height=800',
     );
-    if (w == null || typeof w == 'undefined') {
+    if (w == null || typeof w == 'undefined' || w.closed) {
       alert('Please allow popups for this site');
     }
     window.focus();
