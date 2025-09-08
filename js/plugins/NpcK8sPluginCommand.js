@@ -207,6 +207,10 @@
             $gameMessage.add(`Test Results: ${passed}/${total} tests passed`);
             if (passed < total) {
               $gameMessage.add('Please fix the issues and talk to me again.');
+              // Popup test result XML if available
+              if (json.additional_data.testResultXmlUrl) {
+                popitup(json.additional_data.testResultXmlUrl);
+              }
             }
           }
 
